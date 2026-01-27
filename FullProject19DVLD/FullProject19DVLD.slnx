@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="../BussnisProject/BussnisProject.csproj" Id="f917fee3-3858-4bef-a84f-665ded18b08f" />
+  <Project Path="../DataLayerProjects/DataLayerProjects.csproj" Id="829fe21e-b0e9-4368-b748-885b87e130dc" />
+  <Project Path="FullProject19DVLD.csproj" Id="9d7ee035-e38a-4037-8232-86d0caff29c3" />
+</Solution>

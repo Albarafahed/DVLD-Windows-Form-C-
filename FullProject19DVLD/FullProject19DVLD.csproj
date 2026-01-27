@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{9D7EE035-E38A-4037-8232-86D0CAFF29C3}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>FullProject19DVLD</RootNamespace>
+    <AssemblyName>FullProject19DVLD</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AddOrEditPresonInfo.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="AddOrEditPresonInfo.Designer.cs">
+      <DependentUpon>AddOrEditPresonInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddOrUpdateUserControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="AddOrUpdateUserControl.Designer.cs">
+      <DependentUpon>AddOrUpdateUserControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="clsGlouble.cs" />
+    <Compile Include="FiltiringControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="FiltiringControl.Designer.cs">
+      <DependentUpon>FiltiringControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmAddNewUsers.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAddNewUsers.Designer.cs">
+      <DependentUpon>frmAddNewUsers.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmChangePassword.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmChangePassword.Designer.cs">
+      <DependentUpon>frmChangePassword.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmEditApplicationTypes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmEditApplicationTypes.Designer.cs">
+      <DependentUpon>frmEditApplicationTypes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMainScreen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMainScreen.Designer.cs">
+      <DependentUpon>frmMainScreen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmAddNewPeople.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAddNewPeople.Designer.cs">
+      <DependentUpon>frmAddNewPeople.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmLoginScreen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLoginScreen.Designer.cs">
+      <DependentUpon>frmLoginScreen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMangedAplicatinosTypes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMangedAplicatinosTypes.Designer.cs">
+      <DependentUpon>frmMangedAplicatinosTypes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMangedPeople.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMangedPeople.Designer.cs">
+      <DependentUpon>frmMangedPeople.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMangedTestTypes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMangedTestTypes.Designer.cs">
+      <DependentUpon>frmMangedTestTypes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMangedUser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMangedUser.Designer.cs">
+      <DependentUpon>frmMangedUser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmShowPersonDatalis.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmShowPersonDatalis.Designer.cs">
+      <DependentUpon>frmShowPersonDatalis.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmShowUserDatalis.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmShowUserDatalis.Designer.cs">
+      <DependentUpon>frmShowUserDatalis.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmUpdatePeople.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmUpdatePeople.Designer.cs">
+      <DependentUpon>frmUpdatePeople.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmUpdateTestype.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmUpdateTestype.Designer.cs">
+      <DependentUpon>frmUpdateTestype.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmUpdateUser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmUpdateUser.Designer.cs">
+      <DependentUpon>frmUpdateUser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PersoninfoByFilttiring.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PersoninfoByFilttiring.Designer.cs">
+      <DependentUpon>PersoninfoByFilttiring.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PesonInfo.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PesonInfo.Designer.cs">
+      <DependentUpon>PesonInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UserControlInfo.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControlInfo.Designer.cs">
+      <DependentUpon>UserControlInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserInfo.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserInfo.Designer.cs">
+      <DependentUpon>UserInfo.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="AddOrEditPresonInfo.resx">
+      <DependentUpon>AddOrEditPresonInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddOrUpdateUserControl.resx">
+      <DependentUpon>AddOrUpdateUserControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FiltiringControl.resx">
+      <DependentUpon>FiltiringControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAddNewUsers.resx">
+      <DependentUpon>frmAddNewUsers.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmChangePassword.resx">
+      <DependentUpon>frmChangePassword.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmEditApplicationTypes.resx">
+      <DependentUpon>frmEditApplicationTypes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMainScreen.resx">
+      <DependentUpon>frmMainScreen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAddNewPeople.resx">
+      <DependentUpon>frmAddNewPeople.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLoginScreen.resx">
+      <DependentUpon>frmLoginScreen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMangedAplicatinosTypes.resx">
+      <DependentUpon>frmMangedAplicatinosTypes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMangedPeople.resx">
+      <DependentUpon>frmMangedPeople.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMangedTestTypes.resx">
+      <DependentUpon>frmMangedTestTypes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMangedUser.resx">
+      <DependentUpon>frmMangedUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmShowPersonDatalis.resx">
+      <DependentUpon>frmShowPersonDatalis.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmShowUserDatalis.resx">
+      <DependentUpon>frmShowUserDatalis.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmUpdatePeople.resx">
+      <DependentUpon>frmUpdatePeople.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmUpdateTestype.resx">
+      <DependentUpon>frmUpdateTestype.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmUpdateUser.resx">
+      <DependentUpon>frmUpdateUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PersoninfoByFilttiring.resx">
+      <DependentUpon>PersoninfoByFilttiring.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PesonInfo.resx">
+      <DependentUpon>PesonInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="UserControlInfo.resx">
+      <DependentUpon>UserControlInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserInfo.resx">
+      <DependentUpon>UserInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\كمبيوتر صديق خدع بصرية %281%29.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\كمبيوتر صديق خدع بصرية %287%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BussnisProject\BussnisProject.csproj">
+      <Project>{f917fee3-3858-4bef-a84f-665ded18b08f}</Project>
+      <Name>BussnisProject</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

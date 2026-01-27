@@ -1,0 +1,9 @@
+D:\BussnisProject\bin\Debug\BussnisProject.dll
+D:\BussnisProject\bin\Debug\BussnisProject.pdb
+D:\BussnisProject\bin\Debug\DataLayerProjects.dll
+D:\BussnisProject\bin\Debug\DataLayerProjects.pdb
+D:\BussnisProject\obj\Debug\BussnisProject.csproj.AssemblyReference.cache
+D:\BussnisProject\obj\Debug\BussnisProject.csproj.CoreCompileInputs.cache
+D:\BussnisProject\obj\Debug\BussnisP.080AD020.Up2Date
+D:\BussnisProject\obj\Debug\BussnisProject.dll
+D:\BussnisProject\obj\Debug\BussnisProject.pdb
