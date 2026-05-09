@@ -1,0 +1,153 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Albara\\\u0628\u0648 \u0647\u062F\u0647\u0648\u062F\\course 19\\project\\Project\\DVLD\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7A65E342-BF9D-4ABF-856F-3F4F7F7D3CE5}|DVLD.csproj|d:\\albara\\\u0628\u0648 \u0647\u062F\u0647\u0648\u062F\\course 19\\project\\project\\dvld\\licenses\\local licenses\\controls\\ctrldriverlicenseinfowithfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A65E342-BF9D-4ABF-856F-3F4F7F7D3CE5}|DVLD.csproj|solutionrelative:licenses\\local licenses\\controls\\ctrldriverlicenseinfowithfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A65E342-BF9D-4ABF-856F-3F4F7F7D3CE5}|DVLD.csproj|d:\\albara\\\u0628\u0648 \u0647\u062F\u0647\u0648\u062F\\course 19\\project\\project\\dvld\\licenses\\local licenses\\controls\\ctrldriverlicenseinfowithfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{7A65E342-BF9D-4ABF-856F-3F4F7F7D3CE5}|DVLD.csproj|solutionrelative:licenses\\local licenses\\controls\\ctrldriverlicenseinfowithfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A65E342-BF9D-4ABF-856F-3F4F7F7D3CE5}|DVLD.csproj|d:\\albara\\\u0628\u0648 \u0647\u062F\u0647\u0648\u062F\\course 19\\project\\project\\dvld\\licenses\\international licenses\\controls\\ctrldriverinternationallicenseinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{7A65E342-BF9D-4ABF-856F-3F4F7F7D3CE5}|DVLD.csproj|solutionrelative:licenses\\international licenses\\controls\\ctrldriverinternationallicenseinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A65E342-BF9D-4ABF-856F-3F4F7F7D3CE5}|DVLD.csproj|d:\\albara\\\u0628\u0648 \u0647\u062F\u0647\u0648\u062F\\course 19\\project\\project\\dvld\\licenses\\frmshowpersonlicensehistory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A65E342-BF9D-4ABF-856F-3F4F7F7D3CE5}|DVLD.csproj|solutionrelative:licenses\\frmshowpersonlicensehistory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A65E342-BF9D-4ABF-856F-3F4F7F7D3CE5}|DVLD.csproj|D:\\Albara\\\u0628\u0648 \u0647\u062F\u0647\u0648\u062F\\course 19\\project\\Project\\DVLD\\licenses\\frmshowpersonlicensehistory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{7A65E342-BF9D-4ABF-856F-3F4F7F7D3CE5}|DVLD.csproj|solutionrelative:licenses\\frmshowpersonlicensehistory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A65E342-BF9D-4ABF-856F-3F4F7F7D3CE5}|DVLD.csproj|D:\\Albara\\\u0628\u0648 \u0647\u062F\u0647\u0648\u062F\\course 19\\project\\Project\\DVLD\\applications\\local driving license\\frmlistlocaldrivinglicesnseapplications.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A65E342-BF9D-4ABF-856F-3F4F7F7D3CE5}|DVLD.csproj|solutionrelative:applications\\local driving license\\frmlistlocaldrivinglicesnseapplications.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A65E342-BF9D-4ABF-856F-3F4F7F7D3CE5}|DVLD.csproj|D:\\Albara\\\u0628\u0648 \u0647\u062F\u0647\u0648\u062F\\course 19\\project\\Project\\DVLD\\licenses\\local licenses\\frmissuedriverlicensefirsttime.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A65E342-BF9D-4ABF-856F-3F4F7F7D3CE5}|DVLD.csproj|solutionrelative:licenses\\local licenses\\frmissuedriverlicensefirsttime.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A65E342-BF9D-4ABF-856F-3F4F7F7D3CE5}|DVLD.csproj|D:\\Albara\\\u0628\u0648 \u0647\u062F\u0647\u0648\u062F\\course 19\\project\\Project\\DVLD\\licenses\\local licenses\\frmissuedriverlicensefirsttime.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{7A65E342-BF9D-4ABF-856F-3F4F7F7D3CE5}|DVLD.csproj|solutionrelative:licenses\\local licenses\\frmissuedriverlicensefirsttime.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ctrlDriverLicenseInfoWithFilter.cs",
+              "DocumentMoniker": "D:\\Albara\\\u0628\u0648 \u0647\u062F\u0647\u0648\u062F\\course 19\\project\\Project\\DVLD\\Licenses\\Local Licenses\\Controls\\ctrlDriverLicenseInfoWithFilter.cs",
+              "RelativeDocumentMoniker": "Licenses\\Local Licenses\\Controls\\ctrlDriverLicenseInfoWithFilter.cs",
+              "ToolTip": "D:\\Albara\\\u0628\u0648 \u0647\u062F\u0647\u0648\u062F\\course 19\\project\\Project\\DVLD\\Licenses\\Local Licenses\\Controls\\ctrlDriverLicenseInfoWithFilter.cs",
+              "RelativeToolTip": "Licenses\\Local Licenses\\Controls\\ctrlDriverLicenseInfoWithFilter.cs",
+              "ViewState": "AgIAAGQAAAAAAAAAAADwv3YAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-08T14:42:24.426Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ctrlDriverLicenseInfoWithFilter.cs [Design]",
+              "DocumentMoniker": "D:\\Albara\\\u0628\u0648 \u0647\u062F\u0647\u0648\u062F\\course 19\\project\\Project\\DVLD\\Licenses\\Local Licenses\\Controls\\ctrlDriverLicenseInfoWithFilter.cs",
+              "RelativeDocumentMoniker": "Licenses\\Local Licenses\\Controls\\ctrlDriverLicenseInfoWithFilter.cs",
+              "ToolTip": "D:\\Albara\\\u0628\u0648 \u0647\u062F\u0647\u0648\u062F\\course 19\\project\\Project\\DVLD\\Licenses\\Local Licenses\\Controls\\ctrlDriverLicenseInfoWithFilter.cs [Design]",
+              "RelativeToolTip": "Licenses\\Local Licenses\\Controls\\ctrlDriverLicenseInfoWithFilter.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-08T14:26:49.06Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ctrlDriverInternationalLicenseInfo.cs [Design]",
+              "DocumentMoniker": "D:\\Albara\\\u0628\u0648 \u0647\u062F\u0647\u0648\u062F\\course 19\\project\\Project\\DVLD\\Licenses\\International Licenses\\Controls\\ctrlDriverInternationalLicenseInfo.cs",
+              "RelativeDocumentMoniker": "Licenses\\International Licenses\\Controls\\ctrlDriverInternationalLicenseInfo.cs",
+              "ToolTip": "D:\\Albara\\\u0628\u0648 \u0647\u062F\u0647\u0648\u062F\\course 19\\project\\Project\\DVLD\\Licenses\\International Licenses\\Controls\\ctrlDriverInternationalLicenseInfo.cs [Design]",
+              "RelativeToolTip": "Licenses\\International Licenses\\Controls\\ctrlDriverInternationalLicenseInfo.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-08T14:26:36.043Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "frmListLocalDrivingLicesnseApplications.cs",
+              "DocumentMoniker": "D:\\Albara\\\u0628\u0648 \u0647\u062F\u0647\u0648\u062F\\course 19\\project\\Project\\DVLD\\Applications\\Local Driving License\\frmListLocalDrivingLicesnseApplications.cs",
+              "RelativeDocumentMoniker": "Applications\\Local Driving License\\frmListLocalDrivingLicesnseApplications.cs",
+              "ToolTip": "D:\\Albara\\\u0628\u0648 \u0647\u062F\u0647\u0648\u062F\\course 19\\project\\Project\\DVLD\\Applications\\Local Driving License\\frmListLocalDrivingLicesnseApplications.cs",
+              "RelativeToolTip": "Applications\\Local Driving License\\frmListLocalDrivingLicesnseApplications.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAJMBAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-07T18:14:29.292Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "frmShowPersonLicenseHistory.cs [Design]",
+              "DocumentMoniker": "D:\\Albara\\\u0628\u0648 \u0647\u062F\u0647\u0648\u062F\\course 19\\project\\Project\\DVLD\\Licenses\\frmShowPersonLicenseHistory.cs",
+              "RelativeDocumentMoniker": "Licenses\\frmShowPersonLicenseHistory.cs",
+              "ToolTip": "D:\\Albara\\\u0628\u0648 \u0647\u062F\u0647\u0648\u062F\\course 19\\project\\Project\\DVLD\\Licenses\\frmShowPersonLicenseHistory.cs [Design]",
+              "RelativeToolTip": "Licenses\\frmShowPersonLicenseHistory.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-07T16:24:34.921Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "frmShowPersonLicenseHistory.cs",
+              "DocumentMoniker": "D:\\Albara\\\u0628\u0648 \u0647\u062F\u0647\u0648\u062F\\course 19\\project\\Project\\DVLD\\Licenses\\frmShowPersonLicenseHistory.cs",
+              "RelativeDocumentMoniker": "Licenses\\frmShowPersonLicenseHistory.cs",
+              "ToolTip": "D:\\Albara\\\u0628\u0648 \u0647\u062F\u0647\u0648\u062F\\course 19\\project\\Project\\DVLD\\Licenses\\frmShowPersonLicenseHistory.cs",
+              "RelativeToolTip": "Licenses\\frmShowPersonLicenseHistory.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAxwDYAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-07T16:24:50.496Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "frmIssueDriverLicenseFirstTime.cs",
+              "DocumentMoniker": "D:\\Albara\\\u0628\u0648 \u0647\u062F\u0647\u0648\u062F\\course 19\\project\\Project\\DVLD\\Licenses\\Local Licenses\\frmIssueDriverLicenseFirstTime.cs",
+              "RelativeDocumentMoniker": "Licenses\\Local Licenses\\frmIssueDriverLicenseFirstTime.cs",
+              "ToolTip": "D:\\Albara\\\u0628\u0648 \u0647\u062F\u0647\u0648\u062F\\course 19\\project\\Project\\DVLD\\Licenses\\Local Licenses\\frmIssueDriverLicenseFirstTime.cs",
+              "RelativeToolTip": "Licenses\\Local Licenses\\frmIssueDriverLicenseFirstTime.cs",
+              "ViewState": "AgIAAD0AAAAAAAAAAAAYwEgAAABWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-07T15:35:41.157Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "frmIssueDriverLicenseFirstTime.cs [Design]",
+              "DocumentMoniker": "D:\\Albara\\\u0628\u0648 \u0647\u062F\u0647\u0648\u062F\\course 19\\project\\Project\\DVLD\\Licenses\\Local Licenses\\frmIssueDriverLicenseFirstTime.cs",
+              "RelativeDocumentMoniker": "Licenses\\Local Licenses\\frmIssueDriverLicenseFirstTime.cs",
+              "ToolTip": "D:\\Albara\\\u0628\u0648 \u0647\u062F\u0647\u0648\u062F\\course 19\\project\\Project\\DVLD\\Licenses\\Local Licenses\\frmIssueDriverLicenseFirstTime.cs [Design]",
+              "RelativeToolTip": "Licenses\\Local Licenses\\frmIssueDriverLicenseFirstTime.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-06T18:15:30.769Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

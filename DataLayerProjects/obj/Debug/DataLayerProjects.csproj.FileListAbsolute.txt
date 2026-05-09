@@ -1,6 +1,0 @@
-D:\DataLayerProjects\bin\Debug\DataLayerProjects.dll
-D:\DataLayerProjects\bin\Debug\DataLayerProjects.pdb
-D:\DataLayerProjects\obj\Debug\DataLayerProjects.csproj.AssemblyReference.cache
-D:\DataLayerProjects\obj\Debug\DataLayerProjects.csproj.CoreCompileInputs.cache
-D:\DataLayerProjects\obj\Debug\DataLayerProjects.dll
-D:\DataLayerProjects\obj\Debug\DataLayerProjects.pdb
