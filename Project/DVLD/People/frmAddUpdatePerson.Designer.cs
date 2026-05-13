@@ -1,4 +1,4 @@
-﻿namespace DVLD.People
+﻿namespace DVLD
 {
     partial class frmAddUpdatePerson
     {
@@ -579,6 +579,7 @@
             this.lblTitle.TabIndex = 73;
             this.lblTitle.Text = "Add New Person";
             this.lblTitle.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lblTitle.Click += new System.EventHandler(this.lblTitle_Click);
             // 
             // pictureBox10
             // 

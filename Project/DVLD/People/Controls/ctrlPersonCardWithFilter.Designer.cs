@@ -1,4 +1,4 @@
-﻿namespace DVLD.Controls
+﻿namespace DVLD.People.Controls
 {
     partial class ctrlPersonCardWithFilter
     {
@@ -28,22 +28,15 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
-            this.errorProvider1 = new System.Windows.Forms.ErrorProvider(this.components);
             this.gbFilters = new System.Windows.Forms.GroupBox();
             this.btnAddNewPerson = new System.Windows.Forms.Button();
             this.btnFind = new System.Windows.Forms.Button();
             this.cbFilterBy = new System.Windows.Forms.ComboBox();
             this.txtFilterValue = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.ctrlPersonCard1 = new DVLD.Controls.ctrlPersonCard();
-            ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).BeginInit();
+            this.ctrlPersonCard1 = new DVLD.ctrlPersonCard();
             this.gbFilters.SuspendLayout();
             this.SuspendLayout();
-            // 
-            // errorProvider1
-            // 
-            this.errorProvider1.ContainerControl = this;
             // 
             // gbFilters
             // 
@@ -52,10 +45,10 @@
             this.gbFilters.Controls.Add(this.cbFilterBy);
             this.gbFilters.Controls.Add(this.txtFilterValue);
             this.gbFilters.Controls.Add(this.label1);
-            this.gbFilters.Location = new System.Drawing.Point(10, 13);
+            this.gbFilters.Location = new System.Drawing.Point(13, 3);
             this.gbFilters.Name = "gbFilters";
-            this.gbFilters.Size = new System.Drawing.Size(819, 77);
-            this.gbFilters.TabIndex = 16;
+            this.gbFilters.Size = new System.Drawing.Size(826, 77);
+            this.gbFilters.TabIndex = 17;
             this.gbFilters.TabStop = false;
             this.gbFilters.Text = "Filter";
             // 
@@ -94,6 +87,7 @@
             this.cbFilterBy.Name = "cbFilterBy";
             this.cbFilterBy.Size = new System.Drawing.Size(210, 33);
             this.cbFilterBy.TabIndex = 16;
+            this.cbFilterBy.SelectedIndexChanged += new System.EventHandler(this.cbFilterBy_SelectedIndexChanged);
             // 
             // txtFilterValue
             // 
@@ -119,27 +113,21 @@
             // 
             this.ctrlPersonCard1.BackColor = System.Drawing.Color.White;
             this.ctrlPersonCard1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ctrlPersonCard1.Location = new System.Drawing.Point(0, 101);
-            this.ctrlPersonCard1.Margin = new System.Windows.Forms.Padding(6, 8, 6, 8);
+            this.ctrlPersonCard1.Location = new System.Drawing.Point(13, 88);
+            this.ctrlPersonCard1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.ctrlPersonCard1.Name = "ctrlPersonCard1";
-            this.ctrlPersonCard1.Size = new System.Drawing.Size(836, 299);
+            this.ctrlPersonCard1.Size = new System.Drawing.Size(839, 303);
             this.ctrlPersonCard1.TabIndex = 0;
-            this.ctrlPersonCard1.Load += new System.EventHandler(this.ctrlPersonCard1_Load);
             // 
             // ctrlPersonCardWithFilter
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.AutoValidate = System.Windows.Forms.AutoValidate.EnableAllowFocusChange;
-            this.BackColor = System.Drawing.Color.White;
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.Controls.Add(this.gbFilters);
             this.Controls.Add(this.ctrlPersonCard1);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "ctrlPersonCardWithFilter";
-            this.Size = new System.Drawing.Size(837, 399);
+            this.Size = new System.Drawing.Size(863, 396);
             this.Load += new System.EventHandler(this.ctrlPersonCardWithFilter_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).EndInit();
             this.gbFilters.ResumeLayout(false);
             this.gbFilters.PerformLayout();
             this.ResumeLayout(false);
@@ -149,7 +137,6 @@
         #endregion
 
         private ctrlPersonCard ctrlPersonCard1;
-        private System.Windows.Forms.ErrorProvider errorProvider1;
         private System.Windows.Forms.GroupBox gbFilters;
         private System.Windows.Forms.Button btnAddNewPerson;
         private System.Windows.Forms.Button btnFind;

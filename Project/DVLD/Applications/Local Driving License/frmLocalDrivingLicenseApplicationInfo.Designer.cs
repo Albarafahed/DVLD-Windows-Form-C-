@@ -1,4 +1,4 @@
-﻿namespace DVLD.Applications
+﻿namespace DVLD.Applications.Local_Driving_License
 {
     partial class frmLocalDrivingLicenseApplicationInfo
     {
@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             this.btnClose = new System.Windows.Forms.Button();
-            this.ctrlDrivingLicenseApplicationInfo1 = new DVLD.Controls.ApplicationControls.ctrlDrivingLicenseApplicationInfo();
+            this.ctrlDrivingLicenseApplicationInfo1 = new DVLD.Applications.Local_Driving_License.ctrlDrivingLicenseApplicationInfo();
             this.SuspendLayout();
             // 
             // btnClose
@@ -51,7 +51,7 @@
             // 
             this.ctrlDrivingLicenseApplicationInfo1.BackColor = System.Drawing.Color.White;
             this.ctrlDrivingLicenseApplicationInfo1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ctrlDrivingLicenseApplicationInfo1.Location = new System.Drawing.Point(4, 14);
+            this.ctrlDrivingLicenseApplicationInfo1.Location = new System.Drawing.Point(3, 14);
             this.ctrlDrivingLicenseApplicationInfo1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.ctrlDrivingLicenseApplicationInfo1.Name = "ctrlDrivingLicenseApplicationInfo1";
             this.ctrlDrivingLicenseApplicationInfo1.Size = new System.Drawing.Size(909, 371);
@@ -59,7 +59,7 @@
             // 
             // frmLocalDrivingLicenseApplicationInfo
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(911, 450);
@@ -78,7 +78,7 @@
 
         #endregion
 
-        private Controls.ApplicationControls.ctrlDrivingLicenseApplicationInfo ctrlDrivingLicenseApplicationInfo1;
+        private Applications.Local_Driving_License.ctrlDrivingLicenseApplicationInfo ctrlDrivingLicenseApplicationInfo1;
         private System.Windows.Forms.Button btnClose;
     }
 }

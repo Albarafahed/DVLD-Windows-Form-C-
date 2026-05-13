@@ -29,6 +29,9 @@
         private void InitializeComponent()
         {
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.pictureBox7 = new System.Windows.Forms.PictureBox();
+            this.lblApplicationID = new System.Windows.Forms.Label();
+            this.label9 = new System.Windows.Forms.Label();
             this.lblIsActive = new System.Windows.Forms.Label();
             this.pictureBox8 = new System.Windows.Forms.PictureBox();
             this.pictureBox10 = new System.Windows.Forms.PictureBox();
@@ -60,10 +63,8 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.pbPersonImage = new System.Windows.Forms.PictureBox();
-            this.pictureBox7 = new System.Windows.Forms.PictureBox();
-            this.lblApplicationID = new System.Windows.Forms.Label();
-            this.label9 = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
@@ -75,7 +76,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbPersonImage)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
             this.SuspendLayout();
             // 
             // groupBox1
@@ -123,6 +123,40 @@
             this.groupBox1.TabIndex = 20;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Driver Internationa License Info";
+            this.groupBox1.Enter += new System.EventHandler(this.groupBox1_Enter);
+            // 
+            // pictureBox7
+            // 
+            this.pictureBox7.Image = global::DVLD.Properties.Resources.International_32;
+            this.pictureBox7.Location = new System.Drawing.Point(484, 73);
+            this.pictureBox7.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.pictureBox7.Name = "pictureBox7";
+            this.pictureBox7.Size = new System.Drawing.Size(31, 26);
+            this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox7.TabIndex = 195;
+            this.pictureBox7.TabStop = false;
+            // 
+            // lblApplicationID
+            // 
+            this.lblApplicationID.AutoSize = true;
+            this.lblApplicationID.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblApplicationID.Location = new System.Drawing.Point(527, 73);
+            this.lblApplicationID.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
+            this.lblApplicationID.Name = "lblApplicationID";
+            this.lblApplicationID.Size = new System.Drawing.Size(62, 25);
+            this.lblApplicationID.TabIndex = 194;
+            this.lblApplicationID.Text = "[???]";
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label9.Location = new System.Drawing.Point(352, 73);
+            this.label9.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(153, 25);
+            this.label9.TabIndex = 193;
+            this.label9.Text = "Application ID:";
             // 
             // lblIsActive
             // 
@@ -131,7 +165,7 @@
             this.lblIsActive.Location = new System.Drawing.Point(524, 109);
             this.lblIsActive.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.lblIsActive.Name = "lblIsActive";
-            this.lblIsActive.Size = new System.Drawing.Size(53, 20);
+            this.lblIsActive.Size = new System.Drawing.Size(68, 25);
             this.lblIsActive.TabIndex = 192;
             this.lblIsActive.Text = "[????]";
             // 
@@ -164,7 +198,7 @@
             this.label1.Location = new System.Drawing.Point(13, 32);
             this.label1.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(60, 20);
+            this.label1.Size = new System.Drawing.Size(75, 25);
             this.label1.TabIndex = 114;
             this.label1.Text = "Name:";
             // 
@@ -186,7 +220,7 @@
             this.label8.Location = new System.Drawing.Point(391, 109);
             this.label8.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(88, 20);
+            this.label8.Size = new System.Drawing.Size(107, 25);
             this.label8.TabIndex = 190;
             this.label8.Text = "Is Active?";
             // 
@@ -198,7 +232,7 @@
             this.lblFullName.Location = new System.Drawing.Point(186, 32);
             this.lblFullName.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.lblFullName.Name = "lblFullName";
-            this.lblFullName.Size = new System.Drawing.Size(59, 20);
+            this.lblFullName.Size = new System.Drawing.Size(74, 25);
             this.lblFullName.TabIndex = 131;
             this.lblFullName.Text = "[????]";
             // 
@@ -220,7 +254,7 @@
             this.lblInternationalLicenseID.Location = new System.Drawing.Point(186, 68);
             this.lblInternationalLicenseID.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.lblInternationalLicenseID.Name = "lblInternationalLicenseID";
-            this.lblInternationalLicenseID.Size = new System.Drawing.Size(49, 20);
+            this.lblInternationalLicenseID.Size = new System.Drawing.Size(62, 25);
             this.lblInternationalLicenseID.TabIndex = 188;
             this.lblInternationalLicenseID.Text = "[???]";
             // 
@@ -242,7 +276,7 @@
             this.label10.Location = new System.Drawing.Point(11, 68);
             this.label10.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(127, 20);
+            this.label10.Size = new System.Drawing.Size(151, 25);
             this.label10.TabIndex = 187;
             this.label10.Text = "Int.License ID:";
             // 
@@ -253,7 +287,7 @@
             this.lblExpirationDate.Location = new System.Drawing.Point(524, 216);
             this.lblExpirationDate.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.lblExpirationDate.Name = "lblExpirationDate";
-            this.lblExpirationDate.Size = new System.Drawing.Size(53, 20);
+            this.lblExpirationDate.Size = new System.Drawing.Size(68, 25);
             this.lblExpirationDate.TabIndex = 138;
             this.lblExpirationDate.Text = "[????]";
             // 
@@ -264,7 +298,7 @@
             this.lblDriverID.Location = new System.Drawing.Point(524, 180);
             this.lblDriverID.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.lblDriverID.Name = "lblDriverID";
-            this.lblDriverID.Size = new System.Drawing.Size(53, 20);
+            this.lblDriverID.Size = new System.Drawing.Size(68, 25);
             this.lblDriverID.TabIndex = 137;
             this.lblDriverID.Text = "[????]";
             // 
@@ -275,7 +309,7 @@
             this.lblDateOfBirth.Location = new System.Drawing.Point(524, 144);
             this.lblDateOfBirth.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.lblDateOfBirth.Name = "lblDateOfBirth";
-            this.lblDateOfBirth.Size = new System.Drawing.Size(53, 20);
+            this.lblDateOfBirth.Size = new System.Drawing.Size(68, 25);
             this.lblDateOfBirth.TabIndex = 136;
             this.lblDateOfBirth.Text = "[????]";
             // 
@@ -286,7 +320,7 @@
             this.lblGendor.Location = new System.Drawing.Point(186, 180);
             this.lblGendor.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.lblGendor.Name = "lblGendor";
-            this.lblGendor.Size = new System.Drawing.Size(53, 20);
+            this.lblGendor.Size = new System.Drawing.Size(68, 25);
             this.lblGendor.TabIndex = 135;
             this.lblGendor.Text = "[????]";
             // 
@@ -297,7 +331,7 @@
             this.lblIssueDate.Location = new System.Drawing.Point(186, 216);
             this.lblIssueDate.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.lblIssueDate.Name = "lblIssueDate";
-            this.lblIssueDate.Size = new System.Drawing.Size(53, 20);
+            this.lblIssueDate.Size = new System.Drawing.Size(68, 25);
             this.lblIssueDate.TabIndex = 133;
             this.lblIssueDate.Text = "[????]";
             // 
@@ -308,7 +342,7 @@
             this.lblNationalNo.Location = new System.Drawing.Point(186, 144);
             this.lblNationalNo.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.lblNationalNo.Name = "lblNationalNo";
-            this.lblNationalNo.Size = new System.Drawing.Size(53, 20);
+            this.lblNationalNo.Size = new System.Drawing.Size(68, 25);
             this.lblNationalNo.TabIndex = 132;
             this.lblNationalNo.Text = "[????]";
             // 
@@ -330,7 +364,7 @@
             this.label22.Location = new System.Drawing.Point(10, 106);
             this.label22.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.label22.Name = "label22";
-            this.label22.Size = new System.Drawing.Size(105, 20);
+            this.label22.Size = new System.Drawing.Size(127, 25);
             this.label22.TabIndex = 113;
             this.label22.Text = "License ID :";
             // 
@@ -341,7 +375,7 @@
             this.label5.Location = new System.Drawing.Point(12, 180);
             this.label5.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(74, 20);
+            this.label5.Size = new System.Drawing.Size(90, 25);
             this.label5.TabIndex = 129;
             this.label5.Text = "Gendor:";
             // 
@@ -352,7 +386,7 @@
             this.lblLocalLicenseID.Location = new System.Drawing.Point(186, 106);
             this.lblLocalLicenseID.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.lblLocalLicenseID.Name = "lblLocalLicenseID";
-            this.lblLocalLicenseID.Size = new System.Drawing.Size(53, 20);
+            this.lblLocalLicenseID.Size = new System.Drawing.Size(68, 25);
             this.lblLocalLicenseID.TabIndex = 127;
             this.lblLocalLicenseID.Text = "[????]";
             // 
@@ -407,7 +441,7 @@
             this.label15.Location = new System.Drawing.Point(341, 216);
             this.label15.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(138, 20);
+            this.label15.Size = new System.Drawing.Size(166, 25);
             this.label15.TabIndex = 120;
             this.label15.Text = "Expiration Date:";
             // 
@@ -418,7 +452,7 @@
             this.label6.Location = new System.Drawing.Point(12, 216);
             this.label6.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(102, 20);
+            this.label6.Size = new System.Drawing.Size(122, 25);
             this.label6.TabIndex = 118;
             this.label6.Text = "Issue Date:";
             // 
@@ -429,7 +463,7 @@
             this.label4.Location = new System.Drawing.Point(394, 180);
             this.label4.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(85, 20);
+            this.label4.Size = new System.Drawing.Size(103, 25);
             this.label4.TabIndex = 117;
             this.label4.Text = "Driver ID:";
             // 
@@ -440,7 +474,7 @@
             this.label3.Location = new System.Drawing.Point(359, 144);
             this.label3.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(120, 20);
+            this.label3.Size = new System.Drawing.Size(143, 25);
             this.label3.TabIndex = 116;
             this.label3.Text = "Date Of Birth:";
             // 
@@ -451,7 +485,7 @@
             this.label2.Location = new System.Drawing.Point(12, 144);
             this.label2.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(107, 20);
+            this.label2.Size = new System.Drawing.Size(131, 25);
             this.label2.TabIndex = 115;
             this.label2.Text = "National No:";
             // 
@@ -469,42 +503,9 @@
             this.pbPersonImage.TabIndex = 112;
             this.pbPersonImage.TabStop = false;
             // 
-            // pictureBox7
-            // 
-            this.pictureBox7.Image = global::DVLD.Properties.Resources.International_32;
-            this.pictureBox7.Location = new System.Drawing.Point(484, 73);
-            this.pictureBox7.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.pictureBox7.Name = "pictureBox7";
-            this.pictureBox7.Size = new System.Drawing.Size(31, 26);
-            this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox7.TabIndex = 195;
-            this.pictureBox7.TabStop = false;
-            // 
-            // lblApplicationID
-            // 
-            this.lblApplicationID.AutoSize = true;
-            this.lblApplicationID.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblApplicationID.Location = new System.Drawing.Point(527, 73);
-            this.lblApplicationID.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
-            this.lblApplicationID.Name = "lblApplicationID";
-            this.lblApplicationID.Size = new System.Drawing.Size(49, 20);
-            this.lblApplicationID.TabIndex = 194;
-            this.lblApplicationID.Text = "[???]";
-            // 
-            // label9
-            // 
-            this.label9.AutoSize = true;
-            this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.Location = new System.Drawing.Point(352, 73);
-            this.label9.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(127, 20);
-            this.label9.TabIndex = 193;
-            this.label9.Text = "Application ID:";
-            // 
             // ctrlDriverInternationalLicenseInfo
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.Controls.Add(this.groupBox1);
@@ -512,8 +513,9 @@
             this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "ctrlDriverInternationalLicenseInfo";
             this.Size = new System.Drawing.Size(869, 273);
-             this.groupBox1.ResumeLayout(false);
+            this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();
@@ -525,7 +527,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbPersonImage)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
             this.ResumeLayout(false);
 
         }

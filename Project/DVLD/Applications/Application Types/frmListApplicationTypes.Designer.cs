@@ -1,4 +1,4 @@
-﻿namespace DVLD.Applications
+﻿namespace DVLD
 {
     partial class frmManageApplicationTypes
     {

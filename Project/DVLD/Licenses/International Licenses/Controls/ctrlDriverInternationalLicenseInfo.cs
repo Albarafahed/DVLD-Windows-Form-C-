@@ -1,66 +1,59 @@
-﻿using DVLD.Classes;
+﻿using DVLD_Buisness;
+using DVLD.Classes;
 using DVLD.Properties;
-using DVLD_Buisness;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using System.IO;
 
 namespace DVLD.Licenses.International_Licenses.Controls
 {
     public partial class ctrlDriverInternationalLicenseInfo : UserControl
     {
-        private int _InternationalLicenseID;
+        private int _InternationalLicenseID = -1;
         private clsInternationalLicense _InternationalLicense;
         public ctrlDriverInternationalLicenseInfo()
         {
             InitializeComponent();
         }
 
-        public int InternationalLicenseID
-        {
-            get { return _InternationalLicenseID; }
-        }
+        public int InternationalLicenseID { get { return _InternationalLicenseID; } }
+
+        public clsInternationalLicense SelectedInternationalLicense {  get { return _InternationalLicense; } }
 
         private void _LoadPersonImage()
         {
-            if (_InternationalLicense.DriverInfo.PersonInfo.Gendor == 0)
-                pbPersonImage.Image = Resources.Male_512;
-            else
-                pbPersonImage.Image = Resources.Female_512;
-
             string ImagePath = _InternationalLicense.DriverInfo.PersonInfo.ImagePath;
-
-            if (ImagePath != "")
-                if (File.Exists(ImagePath))
-                    pbPersonImage.Load(ImagePath);
-                else
-                    MessageBox.Show("Could not find this image: = " + ImagePath, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-
-        }
-
-        public void LoadInfo(int InternationalLicenseID)
-        {
-            _InternationalLicenseID = InternationalLicenseID;
-            _InternationalLicense = clsInternationalLicense.Find(_InternationalLicenseID);
-            if (_InternationalLicense == null)
+            if (ImagePath=="")
             {
-                MessageBox.Show("Could not find Internationa License ID = " + _InternationalLicenseID.ToString(),
-                    "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                _InternationalLicenseID = -1;
+                switch(lblGendor.Text)
+                {
+                    case "Male":
+                        pbGendor.Image=Resources.Male_512; break;
+                    case "Female":
+                        pbGendor.Image = Resources.Female_512; break;
+                }
                 return;
             }
 
-            lblInternationalLicenseID.Text = _InternationalLicense.InternationalLicenseID.ToString();
-            lblApplicationID.Text = _InternationalLicense.ApplicationID.ToString();
+            if (File.Exists(ImagePath))
+                pbGendor.Load(ImagePath);
+            else
+                MessageBox.Show("Could not find this image: = " + ImagePath, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+
+
+        }
+        private void _FillInternationalLicenseInfo()
+        {
+            lblInternationalLicenseID.Text=_InternationalLicenseID.ToString();
+            lblLocalLicenseID.Text=_InternationalLicense.IssuedUsingLocalLicenseID.ToString();
             lblIsActive.Text = _InternationalLicense.IsActive ? "Yes" : "No";
-            lblLocalLicenseID.Text = _InternationalLicense.IssuedUsingLocalLicenseID.ToString();
             lblFullName.Text = _InternationalLicense.DriverInfo.PersonInfo.FullName;
             lblNationalNo.Text = _InternationalLicense.DriverInfo.PersonInfo.NationalNo;
             lblGendor.Text = _InternationalLicense.DriverInfo.PersonInfo.Gendor == 0 ? "Male" : "Female";
@@ -69,13 +62,27 @@ namespace DVLD.Licenses.International_Licenses.Controls
             lblDriverID.Text = _InternationalLicense.DriverID.ToString();
             lblIssueDate.Text = clsFormat.DateToShort(_InternationalLicense.IssueDate);
             lblExpirationDate.Text = clsFormat.DateToShort(_InternationalLicense.ExpirationDate);
-           
+            lblApplicationID.Text=_InternationalLicense.ApplicationID.ToString();
+
             _LoadPersonImage();
-
-
-
+        }
+        public void LoadInfo(int InternationalLicenseID)
+        {
+            _InternationalLicenseID=InternationalLicenseID;
+            _InternationalLicense = clsInternationalLicense.Find(_InternationalLicenseID);
+            if(_InternationalLicense==null)
+            {
+                MessageBox.Show("Could not find License ID = " + _InternationalLicenseID.ToString(),
+                     "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                _InternationalLicenseID = -1;
+                return;
+            }
+            _FillInternationalLicenseInfo();
         }
 
-     
+        private void groupBox1_Enter(object sender, EventArgs e)
+        {
+
+        }
     }
 }

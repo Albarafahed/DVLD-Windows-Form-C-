@@ -1,37 +1,41 @@
-﻿using System;
+﻿using DVLD_DataAccess;
+using System;
+using System.Collections.Generic;
 using System.Data;
-using System.Diagnostics.Eventing.Reader;
-using DVLD_DataAccess;
+using System.Data.SqlClient;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
 namespace DVLD_Buisness
 {
     public class clsTest
     {
-
         public enum enMode { AddNew = 0, Update = 1 };
         public enMode Mode = enMode.AddNew;
 
+        public enum enStatues { NotFound = 1, Fail = 2 }
         public int TestID { set; get; }
         public int TestAppointmentID { set; get; }
         public clsTestAppointment TestAppointmentInfo { set; get; }
         public bool TestResult { set; get; }
         public string Notes { set; get; }
-        public int CreatedByUserID { set; get; } 
-       
+        public int CreatedByUserID { set; get; }
+
         public clsTest()
 
         {
             this.TestID = -1;
             this.TestAppointmentID = -1;
             this.TestResult = false;
-            this.Notes ="";
+            this.Notes = "";
             this.CreatedByUserID = -1;
 
             Mode = enMode.AddNew;
 
         }
 
-        public clsTest(int TestID,int TestAppointmentID,
+        public clsTest(int TestID, int TestAppointmentID,
             bool TestResult, string Notes, int CreatedByUserID)
 
         {
@@ -50,8 +54,8 @@ namespace DVLD_Buisness
             //call DataAccess Layer 
 
             this.TestID = clsTestData.AddNewTest(this.TestAppointmentID,
-                this.TestResult,this.Notes,this.CreatedByUserID);
-              
+                this.TestResult, this.Notes, this.CreatedByUserID);
+
 
             return (this.TestID != -1);
         }
@@ -67,29 +71,29 @@ namespace DVLD_Buisness
         public static clsTest Find(int TestID)
         {
             int TestAppointmentID = -1;
-            bool TestResult = false; string Notes = "";int CreatedByUserID = -1;
+            bool TestResult = false; string Notes = ""; int CreatedByUserID = -1;
 
-            if (clsTestData.GetTestInfoByID( TestID,
-            ref  TestAppointmentID, ref  TestResult,
-            ref  Notes, ref  CreatedByUserID))
+            if (clsTestData.GetTestInfoByID(TestID,
+            ref TestAppointmentID, ref TestResult,
+            ref Notes, ref CreatedByUserID))
 
                 return new clsTest(TestID,
-                        TestAppointmentID,  TestResult,
-                        Notes,  CreatedByUserID);
+                        TestAppointmentID, TestResult,
+                        Notes, CreatedByUserID);
             else
                 return null;
 
         }
 
         public static clsTest FindLastTestPerPersonAndLicenseClass
-            (int PersonID, int LicenseClassID, clsTestType.enTestType TestTypeID)
+            (int LocalDrivingLicenseApplicationID, int LicenseClassID, clsTestType.enTestType TestTypeID)
         {
             int TestID = -1;
             int TestAppointmentID = -1;
             bool TestResult = false; string Notes = ""; int CreatedByUserID = -1;
 
             if (clsTestData.GetLastTestByPersonAndTestTypeAndLicenseClass
-                (PersonID,LicenseClassID,(int) TestTypeID, ref TestID,
+                (LocalDrivingLicenseApplicationID, LicenseClassID, (int)TestTypeID, ref TestID,
             ref TestAppointmentID, ref TestResult,
             ref Notes, ref CreatedByUserID))
 
@@ -136,12 +140,5 @@ namespace DVLD_Buisness
         {
             return clsTestData.GetPassedTestCount(LocalDrivingLicenseApplicationID);
         }
-
-        public static bool  PassedAllTests(int LocalDrivingLicenseApplicationID)
-        {
-            //if total passed test less than 3 it will return false otherwise will return true
-            return GetPassedTestCount(LocalDrivingLicenseApplicationID) == 3;
-        }
-
     }
 }

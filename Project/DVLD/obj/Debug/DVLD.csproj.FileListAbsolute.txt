@@ -1,160 +1,110 @@
-C:\Users\Acer\Dropbox\Personal\Advices\2021\19 - Full Real Project\Project\DVLD\bin\Debug\DVLD.exe
-C:\Users\Acer\Dropbox\Personal\Advices\2021\19 - Full Real Project\Project\DVLD\bin\Debug\DVLD.pdb
-C:\Users\Acer\Dropbox\Personal\Advices\2021\19 - Full Real Project\Project\DVLD\obj\Debug\DVLD.csproj.AssemblyReference.cache
-C:\Users\Acer\Dropbox\Personal\Advices\2021\19 - Full Real Project\Project\DVLD\obj\Debug\DVLD.csproj.SuggestedBindingRedirects.cache
-C:\Users\Acer\Dropbox\Personal\Advices\2021\19 - Full Real Project\Project\DVLD\obj\Debug\DVLD.Properties.Resources.resources
-C:\Users\Acer\Dropbox\Personal\Advices\2021\19 - Full Real Project\Project\DVLD\obj\Debug\DVLD.csproj.GenerateResource.cache
-C:\Users\Acer\Dropbox\Personal\Advices\2021\19 - Full Real Project\Project\DVLD\obj\Debug\DVLD.csproj.CoreCompileInputs.cache
-C:\Users\Acer\Dropbox\Personal\Advices\2021\19 - Full Real Project\Project\DVLD\obj\Debug\DVLD.exe
-C:\Users\Acer\Dropbox\Personal\Advices\2021\19 - Full Real Project\Project\DVLD\obj\Debug\DVLD.pdb
-C:\Users\Acer\Dropbox\Personal\Advices\2021\19 - Full Real Project\Project\DVLD\obj\Debug\DVLD.frmMain.resources
-C:\Users\Acer\Dropbox\Personal\Advices\2021\19 - Full Real Project\Project\DVLD\obj\Debug\DVLD.People.frmAddUpdatePerson.resources
-C:\Users\Acer\Dropbox\Personal\Advices\2021\19 - Full Real Project\Project\DVLD\bin\Debug\DVLD_Buisness.dll
-C:\Users\Acer\Dropbox\Personal\Advices\2021\19 - Full Real Project\Project\DVLD\bin\Debug\DVLD_DataAccess.dll
-C:\Users\Acer\Dropbox\Personal\Advices\2021\19 - Full Real Project\Project\DVLD\bin\Debug\DVLD_Buisness.pdb
-C:\Users\Acer\Dropbox\Personal\Advices\2021\19 - Full Real Project\Project\DVLD\bin\Debug\DVLD_DataAccess.pdb
-C:\Users\Acer\Dropbox\Personal\Advices\2021\19 - Full Real Project\Project\DVLD\obj\Debug\DVLD.csproj.CopyComplete
-C:\Users\Acer\Dropbox\Personal\Advices\2021\19 - Full Real Project\Project\DVLD\obj\Debug\DVLD.People.frmListPeople.resources
-C:\Users\Acer\Dropbox\Personal\Advices\2021\19 - Full Real Project\Project\DVLD\obj\Debug\DVLD.Controls.ctrlPersonCard.resources
-C:\Users\Acer\Dropbox\Personal\Advices\2021\19 - Full Real Project\Project\DVLD\obj\Debug\DVLD.User.frmListUsers.resources
-C:\Users\Acer\Dropbox\Personal\Advices\2021\19 - Full Real Project\Project\DVLD\obj\Debug\DVLD.Controls.ctrlPersonCardWithFilter.resources
-C:\Users\Acer\Dropbox\Personal\Advices\2021\19 - Full Real Project\Project\DVLD\obj\Debug\DVLD.User.frmAddUpdateUser.resources
-C:\Users\USER\Dropbox\Personal\Advices\2021\19 - Full Real Project\Project\DVLD\bin\Debug\DVLD.exe.config
-C:\Users\USER\Dropbox\Personal\Advices\2021\19 - Full Real Project\Project\DVLD\bin\Debug\DVLD.exe
-C:\Users\USER\Dropbox\Personal\Advices\2021\19 - Full Real Project\Project\DVLD\bin\Debug\DVLD.pdb
-C:\Users\USER\Dropbox\Personal\Advices\2021\19 - Full Real Project\Project\DVLD\bin\Debug\DVLD_Buisness.dll
-C:\Users\USER\Dropbox\Personal\Advices\2021\19 - Full Real Project\Project\DVLD\bin\Debug\DVLD_DataAccess.dll
-C:\Users\USER\Dropbox\Personal\Advices\2021\19 - Full Real Project\Project\DVLD\bin\Debug\DVLD_Buisness.pdb
-C:\Users\USER\Dropbox\Personal\Advices\2021\19 - Full Real Project\Project\DVLD\bin\Debug\DVLD_DataAccess.pdb
-C:\Users\USER\Dropbox\Personal\Advices\2021\19 - Full Real Project\Project\DVLD\obj\Debug\DVLD.csproj.AssemblyReference.cache
-C:\Users\USER\Dropbox\Personal\Advices\2021\19 - Full Real Project\Project\DVLD\obj\Debug\DVLD.csproj.SuggestedBindingRedirects.cache
-C:\Users\USER\Dropbox\Personal\Advices\2021\19 - Full Real Project\Project\DVLD\obj\Debug\DVLD.Controls.ctrlPersonCard.resources
-C:\Users\USER\Dropbox\Personal\Advices\2021\19 - Full Real Project\Project\DVLD\obj\Debug\DVLD.Controls.ctrlPersonCardWithFilter.resources
-C:\Users\USER\Dropbox\Personal\Advices\2021\19 - Full Real Project\Project\DVLD\obj\Debug\DVLD.frmMain.resources
-C:\Users\USER\Dropbox\Personal\Advices\2021\19 - Full Real Project\Project\DVLD\obj\Debug\DVLD.frmNewApplication.resources
-C:\Users\USER\Dropbox\Personal\Advices\2021\19 - Full Real Project\Project\DVLD\obj\Debug\DVLD.frmNewApplication2.resources
-C:\Users\USER\Dropbox\Personal\Advices\2021\19 - Full Real Project\Project\DVLD\obj\Debug\DVLD.frmTest.resources
-C:\Users\USER\Dropbox\Personal\Advices\2021\19 - Full Real Project\Project\DVLD\obj\Debug\DVLD.People.frmAddUpdatePerson.resources
-C:\Users\USER\Dropbox\Personal\Advices\2021\19 - Full Real Project\Project\DVLD\obj\Debug\DVLD.People.frmListPeople.resources
-C:\Users\USER\Dropbox\Personal\Advices\2021\19 - Full Real Project\Project\DVLD\obj\Debug\DVLD.People.frmPersonCardDetails.resources
-C:\Users\USER\Dropbox\Personal\Advices\2021\19 - Full Real Project\Project\DVLD\obj\Debug\DVLD.Properties.Resources.resources
-C:\Users\USER\Dropbox\Personal\Advices\2021\19 - Full Real Project\Project\DVLD\obj\Debug\DVLD.User.frmAddUpdateUser.resources
-C:\Users\USER\Dropbox\Personal\Advices\2021\19 - Full Real Project\Project\DVLD\obj\Debug\DVLD.User.frmListUsers.resources
-C:\Users\USER\Dropbox\Personal\Advices\2021\19 - Full Real Project\Project\DVLD\obj\Debug\DVLD.csproj.GenerateResource.cache
-C:\Users\USER\Dropbox\Personal\Advices\2021\19 - Full Real Project\Project\DVLD\obj\Debug\DVLD.csproj.CoreCompileInputs.cache
-C:\Users\USER\Dropbox\Personal\Advices\2021\19 - Full Real Project\Project\DVLD\obj\Debug\DVLD.csproj.CopyComplete
-C:\Users\USER\Dropbox\Personal\Advices\2021\19 - Full Real Project\Project\DVLD\obj\Debug\DVLD.exe
-C:\Users\USER\Dropbox\Personal\Advices\2021\19 - Full Real Project\Project\DVLD\obj\Debug\DVLD.pdb
-C:\Users\Acer\Dropbox\Personal\Advices\2021\19 - Full Real Project\Project\DVLD\obj\Debug\DVLD.People.frmFindPerson.resources
-C:\Users\Acer\Dropbox\Personal\Advices\2021\19 - Full Real Project\Project\DVLD\obj\Debug\DVLD.Controls.ctrlUserCard.resources
-C:\Users\Acer\Dropbox\Personal\Advices\2021\19 - Full Real Project\Project\DVLD\obj\Debug\DVLD.User.frmUserInfo.resources
-C:\Users\Acer\Dropbox\Personal\Advices\2021\19 - Full Real Project\Project\DVLD\obj\Debug\DVLD.Login.frmLogin.resources
-C:\Users\Acer\Dropbox\Personal\Advices\2021\19 - Full Real Project\Project\DVLD\obj\Debug\DVLD.User.frmChangePassword.resources
-C:\Users\Acer\Dropbox\Personal\Advices\2021\19 - Full Real Project\Project\DVLD\obj\Debug\DVLD.Applications.frmManageApplicationTypes.resources
-C:\Users\Acer\Dropbox\Personal\Advices\2021\19 - Full Real Project\Project\DVLD\obj\Debug\DVLD.Applications.frmEditApplicationType.resources
-C:\Users\USER\Dropbox\Personal\Advices\2021\19 - Full Real Project\Project\DVLD\obj\Debug\DVLD.Applications.frmEditApplicationType.resources
-C:\Users\USER\Dropbox\Personal\Advices\2021\19 - Full Real Project\Project\DVLD\obj\Debug\DVLD.Applications.frmManageApplicationTypes.resources
-C:\Users\USER\Dropbox\Personal\Advices\2021\19 - Full Real Project\Project\DVLD\obj\Debug\DVLD.Controls.ctrlUserCard.resources
-C:\Users\USER\Dropbox\Personal\Advices\2021\19 - Full Real Project\Project\DVLD\obj\Debug\DVLD.Login.frmLogin.resources
-C:\Users\USER\Dropbox\Personal\Advices\2021\19 - Full Real Project\Project\DVLD\obj\Debug\DVLD.People.frmFindPerson.resources
-C:\Users\USER\Dropbox\Personal\Advices\2021\19 - Full Real Project\Project\DVLD\obj\Debug\DVLD.User.frmChangePassword.resources
-C:\Users\USER\Dropbox\Personal\Advices\2021\19 - Full Real Project\Project\DVLD\obj\Debug\DVLD.User.frmUserInfo.resources
-C:\Users\Acer\Dropbox\Personal\Advices\2021\19 - Full Real Project\Project\DVLD\obj\Debug\DVLD.Applications.frmAddUpdateLocalDrivingLicesnseApplication.resources
-C:\Users\Acer\Dropbox\Personal\Advices\2021\19 - Full Real Project\Project\DVLD\obj\Debug\DVLD.Controls.ApplicationControls.ctrlApplicationBasicInfo.resources
-C:\Users\Acer\Dropbox\Personal\Advices\2021\19 - Full Real Project\Project\DVLD\obj\Debug\DVLD.Controls.ApplicationControls.ctrlDrivingLicenseApplicationInfo.resources
-C:\Users\Acer\Dropbox\Personal\Advices\2021\19 - Full Real Project\Project\DVLD\obj\Debug\DVLD.Applications.frmLocalDrivingLicenseApplicationInfo.resources
-C:\Users\Acer\Dropbox\Personal\Advices\2021\19 - Full Real Project\Project\DVLD\obj\Debug\DVLD.Tests.frmListTestTypes.resources
-C:\Users\Acer\Dropbox\Personal\Advices\2021\19 - Full Real Project\Project\DVLD\obj\Debug\DVLD.Tests.frmEditTestType.resources
-C:\Users\Acer\Dropbox\Personal\Advices\2021\19 - Full Real Project\Project\DVLD\obj\Debug\DVLD.Tests.ctrlSecheduledTest.resources
-C:\Users\Acer\Dropbox\Personal\Advices\2021\19 - Full Real Project\Project\DVLD\obj\Debug\DVLD.Tests.frmTakeTest.resources
-C:\Users\Acer\Dropbox\Personal\Advices\2021\19 - Full Real Project\Project\DVLD\obj\Debug\DVLD.Tests.frmListLocalDrivingLicesnseApplications.resources
-C:\Users\Acer\Dropbox\Personal\Advices\2021\19 - Full Real Project\Project\DVLD\obj\Debug\DVLD.Tests.frmScheduleTest.resources
-C:\Users\Acer\Dropbox\Personal\Advices\2021\19 - Full Real Project\Project\DVLD\obj\Debug\DVLD.Tests.ctrlScheduleTest.resources
-C:\Users\USER\Dropbox\Personal\Advices\2021\19 - Full Real Project\Project\DVLD\obj\Debug\DVLD.Applications.frmAddUpdateLocalDrivingLicesnseApplication.resources
-C:\Users\USER\Dropbox\Personal\Advices\2021\19 - Full Real Project\Project\DVLD\obj\Debug\DVLD.Applications.frmListApplications.resources
-C:\Users\USER\Dropbox\Personal\Advices\2021\19 - Full Real Project\Project\DVLD\obj\Debug\DVLD.Applications.frmLocalDrivingLicenseApplicationInfo.resources
-C:\Users\USER\Dropbox\Personal\Advices\2021\19 - Full Real Project\Project\DVLD\obj\Debug\DVLD.Controls.ApplicationControls.ctrlApplicationBasicInfo.resources
-C:\Users\USER\Dropbox\Personal\Advices\2021\19 - Full Real Project\Project\DVLD\obj\Debug\DVLD.Controls.ApplicationControls.ctrlDrivingLicenseApplicationInfo.resources
-C:\Users\USER\Dropbox\Personal\Advices\2021\19 - Full Real Project\Project\DVLD\obj\Debug\DVLD.Tests.ctrlScheduleTest.resources
-C:\Users\USER\Dropbox\Personal\Advices\2021\19 - Full Real Project\Project\DVLD\obj\Debug\DVLD.Tests.ctrlSecheduledTest.resources
-C:\Users\USER\Dropbox\Personal\Advices\2021\19 - Full Real Project\Project\DVLD\obj\Debug\DVLD.Tests.frmEditTestType.resources
-C:\Users\USER\Dropbox\Personal\Advices\2021\19 - Full Real Project\Project\DVLD\obj\Debug\DVLD.Tests.frmListLicenseTestAppointment.resources
-C:\Users\USER\Dropbox\Personal\Advices\2021\19 - Full Real Project\Project\DVLD\obj\Debug\DVLD.Tests.frmListLocalDrivingLicesnseApplications.resources
-C:\Users\USER\Dropbox\Personal\Advices\2021\19 - Full Real Project\Project\DVLD\obj\Debug\DVLD.Tests.frmListTestAppoinments.resources
-C:\Users\USER\Dropbox\Personal\Advices\2021\19 - Full Real Project\Project\DVLD\obj\Debug\DVLD.Tests.frmListTestTypes.resources
-C:\Users\USER\Dropbox\Personal\Advices\2021\19 - Full Real Project\Project\DVLD\obj\Debug\DVLD.Tests.frmScheduleTest.resources
-C:\Users\USER\Dropbox\Personal\Advices\2021\19 - Full Real Project\Project\DVLD\obj\Debug\DVLD.Tests.frmTakeTest.resources
-C:\Users\Acer\Dropbox\Personal\Advices\2021\19 - Full Real Project\Project\DVLD\obj\Debug\DVLD.DriverLicense.ctrlDriverLicenseInfo.resources
-C:\Users\Acer\Dropbox\Personal\Advices\2021\19 - Full Real Project\Project\DVLD\obj\Debug\DVLD.DriverLicense.frmIssueDriverLicenseFirstTime.resources
-C:\Users\Acer\Dropbox\Personal\Advices\2021\19 - Full Real Project\Project\DVLD\obj\Debug\DVLD.DriverLicense.frmShowLicenseInfo.resources
-C:\Users\Acer\Dropbox\Personal\Advices\2021\19 - Full Real Project\Project\DVLD\obj\Debug\DVLD.People.frmShowPersonInfo.resources
-C:\Users\Acer\Dropbox\Personal\Advices\2021\19 - Full Real Project\Project\DVLD\obj\Debug\DVLD.Tests.frmListTestAppointments.resources
-C:\Users\Acer\Dropbox\Personal\Advices\2021\19 - Full Real Project\Project\DVLD\obj\Debug\DVLD.Drivers.frmListDrivers.resources
-C:\Users\Acer\Dropbox\Personal\Advices\2021\19 - Full Real Project\Project\DVLD\obj\Debug\DVLD.Licenses.Local_Licenses.Controls.ctrlDriverLicenses.resources
-C:\Users\Acer\Dropbox\Personal\Advices\2021\19 - Full Real Project\Project\DVLD\obj\Debug\DVLD.Licenses.International_License.frmShowPersonLicenseHistory.resources
-C:\Users\Acer\Dropbox\Personal\Advices\2021\19 - Full Real Project\Project\DVLD\obj\Debug\DVLD.Applications.International_License.frmNewInternationalLicenseApplication.resources
-C:\Users\Acer\Dropbox\Personal\Advices\2021\19 - Full Real Project\Project\DVLD\obj\Debug\DVLD.Licenses.Controls.ctrlDriverLicenseInfoWithFilter.resources
-C:\Users\Acer\Dropbox\Personal\Advices\2021\19 - Full Real Project\Project\DVLD\obj\Debug\DVLD.Licenses.International_Licenses.Controls.ctrlDriverInternationalLicenseInfo.resources
-C:\Users\Acer\Dropbox\Personal\Advices\2021\19 - Full Real Project\Project\DVLD\obj\Debug\DVLD.Licenses.International_Licenses.frmShowInternationalLicenseInfo.resources
-C:\Users\Acer\Dropbox\Personal\Advices\2021\19 - Full Real Project\Project\DVLD\obj\Debug\DVLD.Applications.International_License.frmListInternationalLicesnseApplications.resources
-C:\Users\Acer\Dropbox\Personal\Advices\2021\19 - Full Real Project\Project\DVLD\obj\Debug\DVLD.Licenses.frmRenewLocalDrivingLicenseApplication.resources
-C:\Users\Acer\Dropbox\Personal\Advices\2021\19 - Full Real Project\Project\DVLD\obj\Debug\DVLD.Applications.ReplaceLostOrDamagedLicense.frmReplaceLostOrDamagedLicenseApplication.resources
-C:\Users\Acer\Dropbox\Personal\Advices\2021\19 - Full Real Project\Project\DVLD\obj\Debug\DVLD.Applications.Detain_License.frmDetainLicenseApplication.resources
-C:\Users\Acer\Dropbox\Personal\Advices\2021\19 - Full Real Project\Project\DVLD\obj\Debug\DVLD.Applications.Rlease_Detained_License.frmReleaseDetainedLicenseApplication.resources
-C:\Users\Acer\Dropbox\Personal\Advices\2021\19 - Full Real Project\Project\DVLD\obj\Debug\DVLD.Applications.Rlease_Detained_License.frmListDetainedLicenses.resources
-D:\Albara\بو هدهود\course 19\project\Project\DVLD\bin\Debug\DVLD.exe
-D:\Albara\بو هدهود\course 19\project\Project\DVLD\bin\Debug\DVLD.pdb
-D:\Albara\بو هدهود\course 19\project\Project\DVLD\bin\Debug\DVLD_Buisness.dll
-D:\Albara\بو هدهود\course 19\project\Project\DVLD\bin\Debug\DVLD_DataAccess.dll
-D:\Albara\بو هدهود\course 19\project\Project\DVLD\bin\Debug\DVLD_Buisness.pdb
-D:\Albara\بو هدهود\course 19\project\Project\DVLD\bin\Debug\DVLD_DataAccess.pdb
-D:\Albara\بو هدهود\course 19\project\Project\DVLD\obj\Debug\DVLD.csproj.AssemblyReference.cache
-D:\Albara\بو هدهود\course 19\project\Project\DVLD\obj\Debug\DVLD.Applications.Rlease_Detained_License.frmListDetainedLicenses.resources
-D:\Albara\بو هدهود\course 19\project\Project\DVLD\obj\Debug\DVLD.Applications.Rlease_Detained_License.frmReleaseDetainedLicenseApplication.resources
-D:\Albara\بو هدهود\course 19\project\Project\DVLD\obj\Debug\DVLD.Applications.Detain_License.frmDetainLicenseApplication.resources
-D:\Albara\بو هدهود\course 19\project\Project\DVLD\obj\Debug\DVLD.Applications.International_License.frmListInternationalLicesnseApplications.resources
-D:\Albara\بو هدهود\course 19\project\Project\DVLD\obj\Debug\DVLD.Applications.International_License.frmNewInternationalLicenseApplication.resources
-D:\Albara\بو هدهود\course 19\project\Project\DVLD\obj\Debug\DVLD.Applications.frmAddUpdateLocalDrivingLicesnseApplication.resources
-D:\Albara\بو هدهود\course 19\project\Project\DVLD\obj\Debug\DVLD.Applications.frmEditApplicationType.resources
-D:\Albara\بو هدهود\course 19\project\Project\DVLD\obj\Debug\DVLD.Applications.frmManageApplicationTypes.resources
-D:\Albara\بو هدهود\course 19\project\Project\DVLD\obj\Debug\DVLD.Applications.frmLocalDrivingLicenseApplicationInfo.resources
-D:\Albara\بو هدهود\course 19\project\Project\DVLD\obj\Debug\DVLD.Controls.ApplicationControls.ctrlApplicationBasicInfo.resources
-D:\Albara\بو هدهود\course 19\project\Project\DVLD\obj\Debug\DVLD.Controls.ApplicationControls.ctrlDrivingLicenseApplicationInfo.resources
-D:\Albara\بو هدهود\course 19\project\Project\DVLD\obj\Debug\DVLD.Applications.ReplaceLostOrDamagedLicense.frmReplaceLostOrDamagedLicenseApplication.resources
-D:\Albara\بو هدهود\course 19\project\Project\DVLD\obj\Debug\DVLD.Drivers.frmListDrivers.resources
-D:\Albara\بو هدهود\course 19\project\Project\DVLD\obj\Debug\DVLD.Licenses.frmRenewLocalDrivingLicenseApplication.resources
-D:\Albara\بو هدهود\course 19\project\Project\DVLD\obj\Debug\DVLD.Licenses.International_Licenses.Controls.ctrlDriverInternationalLicenseInfo.resources
-D:\Albara\بو هدهود\course 19\project\Project\DVLD\obj\Debug\DVLD.Licenses.International_Licenses.frmShowInternationalLicenseInfo.resources
-D:\Albara\بو هدهود\course 19\project\Project\DVLD\obj\Debug\DVLD.Licenses.Controls.ctrlDriverLicenseInfoWithFilter.resources
-D:\Albara\بو هدهود\course 19\project\Project\DVLD\obj\Debug\DVLD.Licenses.International_License.frmShowPersonLicenseHistory.resources
-D:\Albara\بو هدهود\course 19\project\Project\DVLD\obj\Debug\DVLD.Licenses.Local_Licenses.Controls.ctrlDriverLicenses.resources
-D:\Albara\بو هدهود\course 19\project\Project\DVLD\obj\Debug\DVLD.Controls.ctrlPersonCard.resources
-D:\Albara\بو هدهود\course 19\project\Project\DVLD\obj\Debug\DVLD.Controls.ctrlPersonCardWithFilter.resources
-D:\Albara\بو هدهود\course 19\project\Project\DVLD\obj\Debug\DVLD.Controls.ctrlUserCard.resources
-D:\Albara\بو هدهود\course 19\project\Project\DVLD\obj\Debug\DVLD.DriverLicense.ctrlDriverLicenseInfo.resources
-D:\Albara\بو هدهود\course 19\project\Project\DVLD\obj\Debug\DVLD.DriverLicense.frmIssueDriverLicenseFirstTime.resources
-D:\Albara\بو هدهود\course 19\project\Project\DVLD\obj\Debug\DVLD.DriverLicense.frmShowLicenseInfo.resources
-D:\Albara\بو هدهود\course 19\project\Project\DVLD\obj\Debug\DVLD.frmMain.resources
-D:\Albara\بو هدهود\course 19\project\Project\DVLD\obj\Debug\DVLD.Login.frmLogin.resources
-D:\Albara\بو هدهود\course 19\project\Project\DVLD\obj\Debug\DVLD.People.frmAddUpdatePerson.resources
-D:\Albara\بو هدهود\course 19\project\Project\DVLD\obj\Debug\DVLD.People.frmFindPerson.resources
-D:\Albara\بو هدهود\course 19\project\Project\DVLD\obj\Debug\DVLD.People.frmListPeople.resources
-D:\Albara\بو هدهود\course 19\project\Project\DVLD\obj\Debug\DVLD.People.frmShowPersonInfo.resources
-D:\Albara\بو هدهود\course 19\project\Project\DVLD\obj\Debug\DVLD.Properties.Resources.resources
-D:\Albara\بو هدهود\course 19\project\Project\DVLD\obj\Debug\DVLD.Tests.ctrlScheduleTest.resources
-D:\Albara\بو هدهود\course 19\project\Project\DVLD\obj\Debug\DVLD.Tests.ctrlSecheduledTest.resources
-D:\Albara\بو هدهود\course 19\project\Project\DVLD\obj\Debug\DVLD.Tests.frmEditTestType.resources
-D:\Albara\بو هدهود\course 19\project\Project\DVLD\obj\Debug\DVLD.Tests.frmListTestAppointments.resources
-D:\Albara\بو هدهود\course 19\project\Project\DVLD\obj\Debug\DVLD.Tests.frmListLocalDrivingLicesnseApplications.resources
-D:\Albara\بو هدهود\course 19\project\Project\DVLD\obj\Debug\DVLD.Tests.frmListTestTypes.resources
-D:\Albara\بو هدهود\course 19\project\Project\DVLD\obj\Debug\DVLD.Tests.frmScheduleTest.resources
-D:\Albara\بو هدهود\course 19\project\Project\DVLD\obj\Debug\DVLD.Tests.frmTakeTest.resources
-D:\Albara\بو هدهود\course 19\project\Project\DVLD\obj\Debug\DVLD.User.frmAddUpdateUser.resources
-D:\Albara\بو هدهود\course 19\project\Project\DVLD\obj\Debug\DVLD.User.frmChangePassword.resources
-D:\Albara\بو هدهود\course 19\project\Project\DVLD\obj\Debug\DVLD.User.frmListUsers.resources
-D:\Albara\بو هدهود\course 19\project\Project\DVLD\obj\Debug\DVLD.User.frmUserInfo.resources
-D:\Albara\بو هدهود\course 19\project\Project\DVLD\obj\Debug\DVLD.csproj.GenerateResource.cache
-D:\Albara\بو هدهود\course 19\project\Project\DVLD\obj\Debug\DVLD.csproj.CoreCompileInputs.cache
-D:\Albara\بو هدهود\course 19\project\Project\DVLD\obj\Debug\DVLD.csproj.Up2Date
-D:\Albara\بو هدهود\course 19\project\Project\DVLD\obj\Debug\DVLD.exe
-D:\Albara\بو هدهود\course 19\project\Project\DVLD\obj\Debug\DVLD.pdb
+D:\Albara\My Projects\Wnidows Form C#\DVLD-Windows-Form-C-\FullProject19DVLD\obj\Debug\DVLD.csproj.AssemblyReference.cache
+D:\Albara\My Projects\Wnidows Form C#\DVLD-Windows-Form-C-\FullProject19DVLD\obj\Debug\DVLD.csproj.GenerateResource.cache
+D:\Albara\My Projects\Wnidows Form C#\DVLD-Windows-Form-C-\FullProject19DVLD\obj\Debug\DVLD.csproj.CoreCompileInputs.cache
+D:\Albara\My Projects\Wnidows Form C#\DVLD-Windows-Form-C-\FullProject19DVLD\obj\Debug\DVLD.csproj.Up2Date
+D:\Albara\My Projects\Wnidows Form C#\DVLD-Windows-Form-C-\FullProject19DVLD\bin\Debug\DVLD.exe.config
+D:\Albara\My Projects\Wnidows Form C#\DVLD-Windows-Form-C-\FullProject19DVLD\bin\Debug\DVLD.exe
+D:\Albara\My Projects\Wnidows Form C#\DVLD-Windows-Form-C-\FullProject19DVLD\bin\Debug\DVLD.pdb
+D:\Albara\My Projects\Wnidows Form C#\DVLD-Windows-Form-C-\FullProject19DVLD\bin\Debug\DVLD_Buisness.dll
+D:\Albara\My Projects\Wnidows Form C#\DVLD-Windows-Form-C-\FullProject19DVLD\bin\Debug\DVLD_DataAccess.dll
+D:\Albara\My Projects\Wnidows Form C#\DVLD-Windows-Form-C-\FullProject19DVLD\bin\Debug\DVLD_Buisness.pdb
+D:\Albara\My Projects\Wnidows Form C#\DVLD-Windows-Form-C-\FullProject19DVLD\bin\Debug\DVLD_DataAccess.pdb
+D:\Albara\My Projects\Wnidows Form C#\DVLD-Windows-Form-C-\FullProject19DVLD\obj\Debug\DVLD.frmEditApplicationType.resources
+D:\Albara\My Projects\Wnidows Form C#\DVLD-Windows-Form-C-\FullProject19DVLD\obj\Debug\DVLD.frmManageApplicationTypes.resources
+D:\Albara\My Projects\Wnidows Form C#\DVLD-Windows-Form-C-\FullProject19DVLD\obj\Debug\DVLD.Applications.Controls.ctrlApplicationBasicInfo.resources
+D:\Albara\My Projects\Wnidows Form C#\DVLD-Windows-Form-C-\FullProject19DVLD\obj\Debug\DVLD.Licenses.International_Licenses.frmListInternationalLicenses.resources
+D:\Albara\My Projects\Wnidows Form C#\DVLD-Windows-Form-C-\FullProject19DVLD\obj\Debug\DVLD.Applications.International_Licenses.frmNewInternationalLicenseApplication.resources
+D:\Albara\My Projects\Wnidows Form C#\DVLD-Windows-Form-C-\FullProject19DVLD\obj\Debug\DVLD.Applications.Local_Driving_License.ctrlDrivingLicenseApplicationInfo.resources
+D:\Albara\My Projects\Wnidows Form C#\DVLD-Windows-Form-C-\FullProject19DVLD\obj\Debug\DVLD.Applications.Local_Driving_License.frmAddUpdateLocalDrivingLicesnseApplication.resources
+D:\Albara\My Projects\Wnidows Form C#\DVLD-Windows-Form-C-\FullProject19DVLD\obj\Debug\DVLD.frmListLocalDrivingLicesnseApplications.resources
+D:\Albara\My Projects\Wnidows Form C#\DVLD-Windows-Form-C-\FullProject19DVLD\obj\Debug\DVLD.Applications.Local_Driving_License.frmLocalDrivingLicenseApplicationInfo.resources
+D:\Albara\My Projects\Wnidows Form C#\DVLD-Windows-Form-C-\FullProject19DVLD\obj\Debug\DVLD.Applications.Renew_Local_License.frmRenewLocalDrivingLicenseApplication.resources
+D:\Albara\My Projects\Wnidows Form C#\DVLD-Windows-Form-C-\FullProject19DVLD\obj\Debug\DVLD.Applications.ReplaceLostOrDamagedLicense.frmReplaceLostOrDamagedLicenseApplication.resources
+D:\Albara\My Projects\Wnidows Form C#\DVLD-Windows-Form-C-\FullProject19DVLD\obj\Debug\DVLD.frmMainScreen.resources
+D:\Albara\My Projects\Wnidows Form C#\DVLD-Windows-Form-C-\FullProject19DVLD\obj\Debug\DVLD.frmLoginScreen.resources
+D:\Albara\My Projects\Wnidows Form C#\DVLD-Windows-Form-C-\FullProject19DVLD\obj\Debug\DVLD.Licenses.International_Licenses.Controls.ctrlDriverInternationalLicenseInfo.resources
+D:\Albara\My Projects\Wnidows Form C#\DVLD-Windows-Form-C-\FullProject19DVLD\obj\Debug\DVLD.Licenses.International_Licenses.frmShowInternationalLicenseInfo.resources
+D:\Albara\My Projects\Wnidows Form C#\DVLD-Windows-Form-C-\FullProject19DVLD\obj\Debug\DVLD.Licenses.Local_License.Control.ctrlDriverLicenseInfo.resources
+D:\Albara\My Projects\Wnidows Form C#\DVLD-Windows-Form-C-\FullProject19DVLD\obj\Debug\DVLD.Licenses.Local_License.Control.ctrlDriverLicenses.resources
+D:\Albara\My Projects\Wnidows Form C#\DVLD-Windows-Form-C-\FullProject19DVLD\obj\Debug\DVLD.Licenses.Local_License.Control.ctrlDriverLicenseInfoWithFilter.resources
+D:\Albara\My Projects\Wnidows Form C#\DVLD-Windows-Form-C-\FullProject19DVLD\obj\Debug\DVLD.Licenses.Local_License.frmIssueDriverLicenseFirstTime.resources
+D:\Albara\My Projects\Wnidows Form C#\DVLD-Windows-Form-C-\FullProject19DVLD\obj\Debug\DVLD.Licenses.Local_License.frmShowLicenseInfo.resources
+D:\Albara\My Projects\Wnidows Form C#\DVLD-Windows-Form-C-\FullProject19DVLD\obj\Debug\DVLD.Licenses.Local_License.frmShowPersonLicenseHistory.resources
+D:\Albara\My Projects\Wnidows Form C#\DVLD-Windows-Form-C-\FullProject19DVLD\obj\Debug\DVLD.People.Controls.ctrlPersonCardWithFilter.resources
+D:\Albara\My Projects\Wnidows Form C#\DVLD-Windows-Form-C-\FullProject19DVLD\obj\Debug\DVLD.ctrlPersonCard.resources
+D:\Albara\My Projects\Wnidows Form C#\DVLD-Windows-Form-C-\FullProject19DVLD\obj\Debug\DVLD.People.frmFindPerson.resources
+D:\Albara\My Projects\Wnidows Form C#\DVLD-Windows-Form-C-\FullProject19DVLD\obj\Debug\DVLD.frmMangedPeople.resources
+D:\Albara\My Projects\Wnidows Form C#\DVLD-Windows-Form-C-\FullProject19DVLD\obj\Debug\DVLD.frmShowPersonDatalis.resources
+D:\Albara\My Projects\Wnidows Form C#\DVLD-Windows-Form-C-\FullProject19DVLD\obj\Debug\DVLD.frmAddUpdatePerson.resources
+D:\Albara\My Projects\Wnidows Form C#\DVLD-Windows-Form-C-\FullProject19DVLD\obj\Debug\DVLD.Properties.Resources.resources
+D:\Albara\My Projects\Wnidows Form C#\DVLD-Windows-Form-C-\FullProject19DVLD\obj\Debug\DVLD.Tests.Controls.ctrlScheduleTest.resources
+D:\Albara\My Projects\Wnidows Form C#\DVLD-Windows-Form-C-\FullProject19DVLD\obj\Debug\DVLD.Tests.Controls.ctrlSecheduledTest.resources
+D:\Albara\My Projects\Wnidows Form C#\DVLD-Windows-Form-C-\FullProject19DVLD\obj\Debug\DVLD.Tests.frmListTestAppointments.resources
+D:\Albara\My Projects\Wnidows Form C#\DVLD-Windows-Form-C-\FullProject19DVLD\obj\Debug\DVLD.Tests.frmScheduleTest.resources
+D:\Albara\My Projects\Wnidows Form C#\DVLD-Windows-Form-C-\FullProject19DVLD\obj\Debug\DVLD.Tests.frmTakeTest.resources
+D:\Albara\My Projects\Wnidows Form C#\DVLD-Windows-Form-C-\FullProject19DVLD\obj\Debug\DVLD.frmEditTestType.resources
+D:\Albara\My Projects\Wnidows Form C#\DVLD-Windows-Form-C-\FullProject19DVLD\obj\Debug\DVLD.frmListTestTypes.resources
+D:\Albara\My Projects\Wnidows Form C#\DVLD-Windows-Form-C-\FullProject19DVLD\obj\Debug\DVLD.User.Control.ctrlUserCard.resources
+D:\Albara\My Projects\Wnidows Form C#\DVLD-Windows-Form-C-\FullProject19DVLD\obj\Debug\DVLD.User.frmAddUpdateUser.resources
+D:\Albara\My Projects\Wnidows Form C#\DVLD-Windows-Form-C-\FullProject19DVLD\obj\Debug\DVLD.User.frmchangePassword.resources
+D:\Albara\My Projects\Wnidows Form C#\DVLD-Windows-Form-C-\FullProject19DVLD\obj\Debug\DVLD.User.frmListUser.resources
+D:\Albara\My Projects\Wnidows Form C#\DVLD-Windows-Form-C-\FullProject19DVLD\obj\Debug\DVLD.User.frmShowUserDatalis.resources
+D:\Albara\My Projects\Wnidows Form C#\DVLD-Windows-Form-C-\FullProject19DVLD\obj\Debug\DVLD.exe
+D:\Albara\My Projects\Wnidows Form C#\DVLD-Windows-Form-C-\FullProject19DVLD\obj\Debug\DVLD.pdb
+D:\Albara\My Projects\Wnidows Form C#\DVLD-Windows-Form-C-\DVLD\obj\Debug\DVLD.csproj.AssemblyReference.cache
+D:\Albara\My Projects\Wnidows Form C#\DVLD-Windows-Form-C-\DVLD\obj\Debug\DVLD.frmEditApplicationType.resources
+D:\Albara\My Projects\Wnidows Form C#\DVLD-Windows-Form-C-\DVLD\obj\Debug\DVLD.frmManageApplicationTypes.resources
+D:\Albara\My Projects\Wnidows Form C#\DVLD-Windows-Form-C-\DVLD\obj\Debug\DVLD.Applications.Controls.ctrlApplicationBasicInfo.resources
+D:\Albara\My Projects\Wnidows Form C#\DVLD-Windows-Form-C-\DVLD\obj\Debug\DVLD.Licenses.International_Licenses.frmListInternationalLicenses.resources
+D:\Albara\My Projects\Wnidows Form C#\DVLD-Windows-Form-C-\DVLD\obj\Debug\DVLD.Applications.International_Licenses.frmNewInternationalLicenseApplication.resources
+D:\Albara\My Projects\Wnidows Form C#\DVLD-Windows-Form-C-\DVLD\obj\Debug\DVLD.Applications.Local_Driving_License.ctrlDrivingLicenseApplicationInfo.resources
+D:\Albara\My Projects\Wnidows Form C#\DVLD-Windows-Form-C-\DVLD\obj\Debug\DVLD.Applications.Local_Driving_License.frmAddUpdateLocalDrivingLicesnseApplication.resources
+D:\Albara\My Projects\Wnidows Form C#\DVLD-Windows-Form-C-\DVLD\obj\Debug\DVLD.frmListLocalDrivingLicesnseApplications.resources
+D:\Albara\My Projects\Wnidows Form C#\DVLD-Windows-Form-C-\DVLD\obj\Debug\DVLD.Applications.Local_Driving_License.frmLocalDrivingLicenseApplicationInfo.resources
+D:\Albara\My Projects\Wnidows Form C#\DVLD-Windows-Form-C-\DVLD\obj\Debug\DVLD.Applications.Renew_Local_License.frmRenewLocalDrivingLicenseApplication.resources
+D:\Albara\My Projects\Wnidows Form C#\DVLD-Windows-Form-C-\DVLD\obj\Debug\DVLD.Applications.ReplaceLostOrDamagedLicense.frmReplaceLostOrDamagedLicenseApplication.resources
+D:\Albara\My Projects\Wnidows Form C#\DVLD-Windows-Form-C-\DVLD\obj\Debug\DVLD.frmMainScreen.resources
+D:\Albara\My Projects\Wnidows Form C#\DVLD-Windows-Form-C-\DVLD\obj\Debug\DVLD.frmLoginScreen.resources
+D:\Albara\My Projects\Wnidows Form C#\DVLD-Windows-Form-C-\DVLD\obj\Debug\DVLD.Licenses.International_Licenses.Controls.ctrlDriverInternationalLicenseInfo.resources
+D:\Albara\My Projects\Wnidows Form C#\DVLD-Windows-Form-C-\DVLD\obj\Debug\DVLD.Licenses.International_Licenses.frmShowInternationalLicenseInfo.resources
+D:\Albara\My Projects\Wnidows Form C#\DVLD-Windows-Form-C-\DVLD\obj\Debug\DVLD.Licenses.Local_License.Control.ctrlDriverLicenseInfo.resources
+D:\Albara\My Projects\Wnidows Form C#\DVLD-Windows-Form-C-\DVLD\obj\Debug\DVLD.Licenses.Local_License.Control.ctrlDriverLicenses.resources
+D:\Albara\My Projects\Wnidows Form C#\DVLD-Windows-Form-C-\DVLD\obj\Debug\DVLD.Licenses.Local_License.Control.ctrlDriverLicenseInfoWithFilter.resources
+D:\Albara\My Projects\Wnidows Form C#\DVLD-Windows-Form-C-\DVLD\obj\Debug\DVLD.Licenses.Local_License.frmIssueDriverLicenseFirstTime.resources
+D:\Albara\My Projects\Wnidows Form C#\DVLD-Windows-Form-C-\DVLD\obj\Debug\DVLD.Licenses.Local_License.frmShowLicenseInfo.resources
+D:\Albara\My Projects\Wnidows Form C#\DVLD-Windows-Form-C-\DVLD\obj\Debug\DVLD.Licenses.Local_License.frmShowPersonLicenseHistory.resources
+D:\Albara\My Projects\Wnidows Form C#\DVLD-Windows-Form-C-\DVLD\obj\Debug\DVLD.People.Controls.ctrlPersonCardWithFilter.resources
+D:\Albara\My Projects\Wnidows Form C#\DVLD-Windows-Form-C-\DVLD\obj\Debug\DVLD.ctrlPersonCard.resources
+D:\Albara\My Projects\Wnidows Form C#\DVLD-Windows-Form-C-\DVLD\obj\Debug\DVLD.People.frmFindPerson.resources
+D:\Albara\My Projects\Wnidows Form C#\DVLD-Windows-Form-C-\DVLD\obj\Debug\DVLD.frmMangedPeople.resources
+D:\Albara\My Projects\Wnidows Form C#\DVLD-Windows-Form-C-\DVLD\obj\Debug\DVLD.frmShowPersonDatalis.resources
+D:\Albara\My Projects\Wnidows Form C#\DVLD-Windows-Form-C-\DVLD\obj\Debug\DVLD.frmAddUpdatePerson.resources
+D:\Albara\My Projects\Wnidows Form C#\DVLD-Windows-Form-C-\DVLD\obj\Debug\DVLD.Properties.Resources.resources
+D:\Albara\My Projects\Wnidows Form C#\DVLD-Windows-Form-C-\DVLD\obj\Debug\DVLD.Tests.Controls.ctrlScheduleTest.resources
+D:\Albara\My Projects\Wnidows Form C#\DVLD-Windows-Form-C-\DVLD\obj\Debug\DVLD.Tests.Controls.ctrlSecheduledTest.resources
+D:\Albara\My Projects\Wnidows Form C#\DVLD-Windows-Form-C-\DVLD\obj\Debug\DVLD.Tests.frmListTestAppointments.resources
+D:\Albara\My Projects\Wnidows Form C#\DVLD-Windows-Form-C-\DVLD\obj\Debug\DVLD.Tests.frmScheduleTest.resources
+D:\Albara\My Projects\Wnidows Form C#\DVLD-Windows-Form-C-\DVLD\obj\Debug\DVLD.Tests.frmTakeTest.resources
+D:\Albara\My Projects\Wnidows Form C#\DVLD-Windows-Form-C-\DVLD\obj\Debug\DVLD.frmEditTestType.resources
+D:\Albara\My Projects\Wnidows Form C#\DVLD-Windows-Form-C-\DVLD\obj\Debug\DVLD.frmListTestTypes.resources
+D:\Albara\My Projects\Wnidows Form C#\DVLD-Windows-Form-C-\DVLD\obj\Debug\DVLD.User.Control.ctrlUserCard.resources
+D:\Albara\My Projects\Wnidows Form C#\DVLD-Windows-Form-C-\DVLD\obj\Debug\DVLD.User.frmAddUpdateUser.resources
+D:\Albara\My Projects\Wnidows Form C#\DVLD-Windows-Form-C-\DVLD\obj\Debug\DVLD.User.frmchangePassword.resources
+D:\Albara\My Projects\Wnidows Form C#\DVLD-Windows-Form-C-\DVLD\obj\Debug\DVLD.User.frmListUser.resources
+D:\Albara\My Projects\Wnidows Form C#\DVLD-Windows-Form-C-\DVLD\obj\Debug\DVLD.User.frmShowUserDatalis.resources
+D:\Albara\My Projects\Wnidows Form C#\DVLD-Windows-Form-C-\DVLD\obj\Debug\DVLD.csproj.GenerateResource.cache
+D:\Albara\My Projects\Wnidows Form C#\DVLD-Windows-Form-C-\DVLD\obj\Debug\DVLD.csproj.CoreCompileInputs.cache
+D:\Albara\My Projects\Wnidows Form C#\DVLD-Windows-Form-C-\DVLD\bin\Debug\DVLD.exe.config
+D:\Albara\My Projects\Wnidows Form C#\DVLD-Windows-Form-C-\DVLD\bin\Debug\DVLD.exe
+D:\Albara\My Projects\Wnidows Form C#\DVLD-Windows-Form-C-\DVLD\bin\Debug\DVLD.pdb
+D:\Albara\My Projects\Wnidows Form C#\DVLD-Windows-Form-C-\DVLD\bin\Debug\DVLD_Buisness.dll
+D:\Albara\My Projects\Wnidows Form C#\DVLD-Windows-Form-C-\DVLD\bin\Debug\DVLD_DataAccess.dll
+D:\Albara\My Projects\Wnidows Form C#\DVLD-Windows-Form-C-\DVLD\bin\Debug\DVLD_Buisness.pdb
+D:\Albara\My Projects\Wnidows Form C#\DVLD-Windows-Form-C-\DVLD\bin\Debug\DVLD_DataAccess.pdb
+D:\Albara\My Projects\Wnidows Form C#\DVLD-Windows-Form-C-\DVLD\obj\Debug\DVLD.csproj.Up2Date
+D:\Albara\My Projects\Wnidows Form C#\DVLD-Windows-Form-C-\DVLD\obj\Debug\DVLD.exe
+D:\Albara\My Projects\Wnidows Form C#\DVLD-Windows-Form-C-\DVLD\obj\Debug\DVLD.pdb
+D:\Albara\My Projects\Wnidows Form C#\DVLD-Windows-Form-C-\DVLD\obj\Debug\DVLD.Licenses.Detain_License.frmDetainLicenseApplication.resources
+D:\Albara\My Projects\Wnidows Form C#\DVLD-Windows-Form-C-\DVLD\obj\Debug\DVLD.Applications.Rlease_Detained_License.frmListDetainedLicenses.resources
+D:\Albara\My Projects\Wnidows Form C#\DVLD-Windows-Form-C-\DVLD\obj\Debug\DVLD.Applications.Rlease_Detained_License.frmReleaseDetainedLicenseApplication.resources
+D:\Albara\My Projects\Wnidows Form C#\DVLD-Windows-Form-C-\DVLD\obj\Debug\DVLD.Drivers.frmListDrivers.resources

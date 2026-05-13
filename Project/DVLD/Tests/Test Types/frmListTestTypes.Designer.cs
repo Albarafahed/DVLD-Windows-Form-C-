@@ -1,4 +1,4 @@
-﻿namespace DVLD.Tests
+﻿namespace DVLD
 {
     partial class frmListTestTypes
     {

@@ -1,4 +1,6 @@
-﻿namespace DVLD.Tests
+﻿using System.Windows.Forms;
+
+namespace DVLD.Tests
 {
     partial class frmListTestAppointments
     {
@@ -20,6 +22,7 @@
             base.Dispose(disposing);
         }
 
+
         #region Windows Form Designer generated code
 
         /// <summary>
@@ -31,17 +34,17 @@
             this.components = new System.ComponentModel.Container();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
             this.cmsApplications = new System.Windows.Forms.ContextMenuStrip(this.components);
-            this.editToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.takeTestToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.lblRecordsCount = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.dgvLicenseTestAppointments = new System.Windows.Forms.DataGridView();
             this.lblTitle = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
+            this.btnAddNewAppointment = new System.Windows.Forms.Button();
             this.btnClose = new System.Windows.Forms.Button();
             this.pbTestTypeImage = new System.Windows.Forms.PictureBox();
-            this.btnAddNewAppointment = new System.Windows.Forms.Button();
-            this.ctrlDrivingLicenseApplicationInfo1 = new DVLD.Controls.ApplicationControls.ctrlDrivingLicenseApplicationInfo();
+            this.editToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.takeTestToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.ctrlDrivingLicenseApplicationInfo1 = new DVLD.Applications.Local_Driving_License.ctrlDrivingLicenseApplicationInfo();
             this.cmsApplications.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvLicenseTestAppointments)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbTestTypeImage)).BeginInit();
@@ -49,36 +52,19 @@
             // 
             // cmsApplications
             // 
+            this.cmsApplications.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.cmsApplications.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.editToolStripMenuItem,
             this.takeTestToolStripMenuItem});
             this.cmsApplications.Name = "contextMenuStrip1";
-            this.cmsApplications.Size = new System.Drawing.Size(197, 102);
-              // 
-            // editToolStripMenuItem
-            // 
-            this.editToolStripMenuItem.Image = global::DVLD.Properties.Resources.edit_32;
-            this.editToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
-            this.editToolStripMenuItem.Name = "editToolStripMenuItem";
-            this.editToolStripMenuItem.Size = new System.Drawing.Size(196, 38);
-            this.editToolStripMenuItem.Text = "&Edit";
-            this.editToolStripMenuItem.Click += new System.EventHandler(this.editToolStripMenuItem_Click);
-            // 
-            // takeTestToolStripMenuItem
-            // 
-            this.takeTestToolStripMenuItem.Image = global::DVLD.Properties.Resources.Test_32;
-            this.takeTestToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
-            this.takeTestToolStripMenuItem.Name = "takeTestToolStripMenuItem";
-            this.takeTestToolStripMenuItem.Size = new System.Drawing.Size(196, 38);
-            this.takeTestToolStripMenuItem.Text = "Take Test";
-            this.takeTestToolStripMenuItem.Click += new System.EventHandler(this.takeTestToolStripMenuItem_Click);
+            this.cmsApplications.Size = new System.Drawing.Size(227, 108);
             // 
             // lblRecordsCount
             // 
             this.lblRecordsCount.AutoSize = true;
             this.lblRecordsCount.Location = new System.Drawing.Point(118, 738);
             this.lblRecordsCount.Name = "lblRecordsCount";
-            this.lblRecordsCount.Size = new System.Drawing.Size(27, 20);
+            this.lblRecordsCount.Size = new System.Drawing.Size(34, 25);
             this.lblRecordsCount.TabIndex = 131;
             this.lblRecordsCount.Text = "??";
             // 
@@ -88,7 +74,7 @@
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(20, 738);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(96, 20);
+            this.label2.Size = new System.Drawing.Size(116, 25);
             this.label2.TabIndex = 130;
             this.label2.Text = "# Records:";
             // 
@@ -114,6 +100,7 @@
             dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
             dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
             this.dgvLicenseTestAppointments.RowHeadersDefaultCellStyle = dataGridViewCellStyle1;
+            this.dgvLicenseTestAppointments.RowHeadersWidth = 51;
             this.dgvLicenseTestAppointments.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dgvLicenseTestAppointments.Size = new System.Drawing.Size(887, 161);
             this.dgvLicenseTestAppointments.TabIndex = 129;
@@ -136,9 +123,20 @@
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(20, 534);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(125, 20);
+            this.label1.Size = new System.Drawing.Size(151, 25);
             this.label1.TabIndex = 135;
             this.label1.Text = "Appointments:";
+            // 
+            // btnAddNewAppointment
+            // 
+            this.btnAddNewAppointment.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnAddNewAppointment.Image = global::DVLD.Properties.Resources.AddAppointment_32;
+            this.btnAddNewAppointment.Location = new System.Drawing.Point(858, 530);
+            this.btnAddNewAppointment.Name = "btnAddNewAppointment";
+            this.btnAddNewAppointment.Size = new System.Drawing.Size(49, 36);
+            this.btnAddNewAppointment.TabIndex = 137;
+            this.btnAddNewAppointment.UseVisualStyleBackColor = true;
+            this.btnAddNewAppointment.Click += new System.EventHandler(this.btnAddNewAppointment_Click);
             // 
             // btnClose
             // 
@@ -153,7 +151,6 @@
             this.btnClose.TabIndex = 128;
             this.btnClose.Text = "Close";
             this.btnClose.UseVisualStyleBackColor = true;
-            this.btnClose.Click += new System.EventHandler(this.btnClose_Click);
             // 
             // pbTestTypeImage
             // 
@@ -168,16 +165,23 @@
             this.pbTestTypeImage.TabIndex = 132;
             this.pbTestTypeImage.TabStop = false;
             // 
-            // btnAddNewAppointment
+            // editToolStripMenuItem
             // 
-            this.btnAddNewAppointment.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnAddNewAppointment.Image = global::DVLD.Properties.Resources.AddAppointment_32;
-            this.btnAddNewAppointment.Location = new System.Drawing.Point(858, 530);
-            this.btnAddNewAppointment.Name = "btnAddNewAppointment";
-            this.btnAddNewAppointment.Size = new System.Drawing.Size(49, 36);
-            this.btnAddNewAppointment.TabIndex = 137;
-            this.btnAddNewAppointment.UseVisualStyleBackColor = true;
-            this.btnAddNewAppointment.Click += new System.EventHandler(this.btnAddNewAppointment_Click);
+            this.editToolStripMenuItem.Image = global::DVLD.Properties.Resources.edit_32;
+            this.editToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
+            this.editToolStripMenuItem.Name = "editToolStripMenuItem";
+            this.editToolStripMenuItem.Size = new System.Drawing.Size(226, 38);
+            this.editToolStripMenuItem.Text = "&Edit";
+            this.editToolStripMenuItem.Click += new System.EventHandler(this.editToolStripMenuItem_Click);
+            // 
+            // takeTestToolStripMenuItem
+            // 
+            this.takeTestToolStripMenuItem.Image = global::DVLD.Properties.Resources.Test_32;
+            this.takeTestToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
+            this.takeTestToolStripMenuItem.Name = "takeTestToolStripMenuItem";
+            this.takeTestToolStripMenuItem.Size = new System.Drawing.Size(226, 38);
+            this.takeTestToolStripMenuItem.Text = "Take Test";
+            this.takeTestToolStripMenuItem.Click += new System.EventHandler(this.takeTestToolStripMenuItem_Click);
             // 
             // ctrlDrivingLicenseApplicationInfo1
             // 
@@ -191,7 +195,7 @@
             // 
             // frmListTestAppointments
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(926, 789);
@@ -229,7 +233,7 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.DataGridView dgvLicenseTestAppointments;
         private System.Windows.Forms.Label lblTitle;
-        private Controls.ApplicationControls.ctrlDrivingLicenseApplicationInfo ctrlDrivingLicenseApplicationInfo1;
+        private Applications.Local_Driving_License.ctrlDrivingLicenseApplicationInfo ctrlDrivingLicenseApplicationInfo1;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button btnAddNewAppointment;
     }

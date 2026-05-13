@@ -1,4 +1,4 @@
-﻿namespace DVLD.Licenses
+﻿namespace DVLD.Applications.Renew_Local_License
 {
     partial class frmRenewLocalDrivingLicenseApplication
     {
@@ -67,7 +67,7 @@
             this.lblTitle = new System.Windows.Forms.Label();
             this.llShowLicenseInfo = new System.Windows.Forms.LinkLabel();
             this.llShowLicenseHistory = new System.Windows.Forms.LinkLabel();
-            this.ctrlDriverLicenseInfoWithFilter1 = new DVLD.Licenses.Controls.ctrlDriverLicenseInfoWithFilter();
+            this.ctrlDriverLicenseInfoWithFilter1 = new DVLD.Licenses.Local_License.Control.ctrlDriverLicenseInfoWithFilter();
             this.gpApplicationInfo.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).BeginInit();
@@ -88,7 +88,7 @@
             this.btnRenewLicense.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnRenewLicense.Image = global::DVLD.Properties.Resources.Renew_Driving_License_32;
             this.btnRenewLicense.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnRenewLicense.Location = new System.Drawing.Point(749, 783);
+            this.btnRenewLicense.Location = new System.Drawing.Point(754, 765);
             this.btnRenewLicense.Name = "btnRenewLicense";
             this.btnRenewLicense.Size = new System.Drawing.Size(126, 37);
             this.btnRenewLicense.TabIndex = 180;
@@ -102,14 +102,13 @@
             this.btnClose.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnClose.Image = global::DVLD.Properties.Resources.Close_32;
             this.btnClose.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnClose.Location = new System.Drawing.Point(615, 783);
+            this.btnClose.Location = new System.Drawing.Point(612, 765);
             this.btnClose.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnClose.Name = "btnClose";
             this.btnClose.Size = new System.Drawing.Size(126, 37);
             this.btnClose.TabIndex = 179;
             this.btnClose.Text = "Close";
             this.btnClose.UseVisualStyleBackColor = true;
-            this.btnClose.Click += new System.EventHandler(this.btnClose_Click);
             // 
             // gpApplicationInfo
             // 
@@ -146,7 +145,7 @@
             this.gpApplicationInfo.Controls.Add(this.label5);
             this.gpApplicationInfo.Controls.Add(this.lblApplicationID);
             this.gpApplicationInfo.Controls.Add(this.label4);
-            this.gpApplicationInfo.Location = new System.Drawing.Point(33, 493);
+            this.gpApplicationInfo.Location = new System.Drawing.Point(35, 475);
             this.gpApplicationInfo.Name = "gpApplicationInfo";
             this.gpApplicationInfo.Size = new System.Drawing.Size(845, 284);
             this.gpApplicationInfo.TabIndex = 178;
@@ -170,7 +169,7 @@
             this.label3.Location = new System.Drawing.Point(12, 199);
             this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(61, 20);
+            this.label3.Size = new System.Drawing.Size(75, 25);
             this.label3.TabIndex = 203;
             this.label3.Text = "Notes:";
             // 
@@ -190,7 +189,7 @@
             this.lblTotalFees.Location = new System.Drawing.Point(627, 167);
             this.lblTotalFees.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblTotalFees.Name = "lblTotalFees";
-            this.lblTotalFees.Size = new System.Drawing.Size(49, 20);
+            this.lblTotalFees.Size = new System.Drawing.Size(62, 25);
             this.lblTotalFees.TabIndex = 201;
             this.lblTotalFees.Text = "[$$$]";
             // 
@@ -201,7 +200,7 @@
             this.label9.Location = new System.Drawing.Point(406, 167);
             this.label9.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(104, 20);
+            this.label9.Size = new System.Drawing.Size(128, 25);
             this.label9.TabIndex = 199;
             this.label9.Text = "Total  Fees:";
             // 
@@ -222,7 +221,7 @@
             this.lblLicenseFees.Location = new System.Drawing.Point(221, 167);
             this.lblLicenseFees.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblLicenseFees.Name = "lblLicenseFees";
-            this.lblLicenseFees.Size = new System.Drawing.Size(49, 20);
+            this.lblLicenseFees.Size = new System.Drawing.Size(62, 25);
             this.lblLicenseFees.TabIndex = 198;
             this.lblLicenseFees.Text = "[$$$]";
             // 
@@ -233,7 +232,7 @@
             this.label7.Location = new System.Drawing.Point(12, 167);
             this.label7.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(126, 20);
+            this.label7.Size = new System.Drawing.Size(154, 25);
             this.label7.TabIndex = 196;
             this.label7.Text = "License  Fees:";
             // 
@@ -264,7 +263,7 @@
             this.lblOldLicenseID.Location = new System.Drawing.Point(629, 70);
             this.lblOldLicenseID.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblOldLicenseID.Name = "lblOldLicenseID";
-            this.lblOldLicenseID.Size = new System.Drawing.Size(49, 20);
+            this.lblOldLicenseID.Size = new System.Drawing.Size(62, 25);
             this.lblOldLicenseID.TabIndex = 194;
             this.lblOldLicenseID.Text = "[???]";
             // 
@@ -275,7 +274,7 @@
             this.label12.Location = new System.Drawing.Point(406, 70);
             this.label12.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(132, 20);
+            this.label12.Size = new System.Drawing.Size(161, 25);
             this.label12.TabIndex = 193;
             this.label12.Text = "Old License ID:";
             // 
@@ -296,7 +295,7 @@
             this.lblRenewedLicenseID.Location = new System.Drawing.Point(629, 38);
             this.lblRenewedLicenseID.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblRenewedLicenseID.Name = "lblRenewedLicenseID";
-            this.lblRenewedLicenseID.Size = new System.Drawing.Size(49, 20);
+            this.lblRenewedLicenseID.Size = new System.Drawing.Size(62, 25);
             this.lblRenewedLicenseID.TabIndex = 191;
             this.lblRenewedLicenseID.Text = "[???]";
             // 
@@ -307,7 +306,7 @@
             this.label10.Location = new System.Drawing.Point(406, 38);
             this.label10.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(180, 20);
+            this.label10.Size = new System.Drawing.Size(216, 25);
             this.label10.TabIndex = 190;
             this.label10.Text = "Renewed License ID:";
             // 
@@ -318,7 +317,7 @@
             this.lblExpirationDate.Location = new System.Drawing.Point(629, 102);
             this.lblExpirationDate.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblExpirationDate.Name = "lblExpirationDate";
-            this.lblExpirationDate.Size = new System.Drawing.Size(109, 20);
+            this.lblExpirationDate.Size = new System.Drawing.Size(136, 25);
             this.lblExpirationDate.TabIndex = 189;
             this.lblExpirationDate.Text = "[??/??/????]";
             // 
@@ -339,7 +338,7 @@
             this.label8.Location = new System.Drawing.Point(406, 102);
             this.label8.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(138, 20);
+            this.label8.Size = new System.Drawing.Size(166, 25);
             this.label8.TabIndex = 187;
             this.label8.Text = "Expiration Date:";
             // 
@@ -350,7 +349,7 @@
             this.lblIssueDate.Location = new System.Drawing.Point(221, 102);
             this.lblIssueDate.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblIssueDate.Name = "lblIssueDate";
-            this.lblIssueDate.Size = new System.Drawing.Size(109, 20);
+            this.lblIssueDate.Size = new System.Drawing.Size(136, 25);
             this.lblIssueDate.TabIndex = 186;
             this.lblIssueDate.Text = "[??/??/????]";
             // 
@@ -371,7 +370,7 @@
             this.label6.Location = new System.Drawing.Point(12, 102);
             this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(102, 20);
+            this.label6.Size = new System.Drawing.Size(122, 25);
             this.label6.TabIndex = 184;
             this.label6.Text = "Issue Date:";
             // 
@@ -402,7 +401,7 @@
             this.label1.Location = new System.Drawing.Point(406, 134);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(103, 20);
+            this.label1.Size = new System.Drawing.Size(127, 25);
             this.label1.TabIndex = 181;
             this.label1.Text = "Created By:";
             // 
@@ -413,7 +412,7 @@
             this.lblCreatedByUser.Location = new System.Drawing.Point(629, 134);
             this.lblCreatedByUser.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblCreatedByUser.Name = "lblCreatedByUser";
-            this.lblCreatedByUser.Size = new System.Drawing.Size(59, 20);
+            this.lblCreatedByUser.Size = new System.Drawing.Size(74, 25);
             this.lblCreatedByUser.TabIndex = 180;
             this.lblCreatedByUser.Text = "[????]";
             // 
@@ -424,7 +423,7 @@
             this.lblApplicationFees.Location = new System.Drawing.Point(221, 134);
             this.lblApplicationFees.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblApplicationFees.Name = "lblApplicationFees";
-            this.lblApplicationFees.Size = new System.Drawing.Size(49, 20);
+            this.lblApplicationFees.Size = new System.Drawing.Size(62, 25);
             this.lblApplicationFees.TabIndex = 179;
             this.lblApplicationFees.Text = "[$$$]";
             // 
@@ -435,7 +434,7 @@
             this.label2.Location = new System.Drawing.Point(12, 134);
             this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(148, 20);
+            this.label2.Size = new System.Drawing.Size(180, 25);
             this.label2.TabIndex = 177;
             this.label2.Text = "Application Fees:";
             // 
@@ -456,7 +455,7 @@
             this.lblApplicationDate.Location = new System.Drawing.Point(221, 70);
             this.lblApplicationDate.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblApplicationDate.Name = "lblApplicationDate";
-            this.lblApplicationDate.Size = new System.Drawing.Size(109, 20);
+            this.lblApplicationDate.Size = new System.Drawing.Size(136, 25);
             this.lblApplicationDate.TabIndex = 176;
             this.lblApplicationDate.Text = "[??/??/????]";
             // 
@@ -477,7 +476,7 @@
             this.label5.Location = new System.Drawing.Point(12, 70);
             this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(147, 20);
+            this.label5.Size = new System.Drawing.Size(177, 25);
             this.label5.TabIndex = 174;
             this.label5.Text = "Application Date:";
             // 
@@ -488,7 +487,7 @@
             this.lblApplicationID.Location = new System.Drawing.Point(221, 38);
             this.lblApplicationID.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblApplicationID.Name = "lblApplicationID";
-            this.lblApplicationID.Size = new System.Drawing.Size(49, 20);
+            this.lblApplicationID.Size = new System.Drawing.Size(62, 25);
             this.lblApplicationID.TabIndex = 173;
             this.lblApplicationID.Text = "[???]";
             // 
@@ -499,7 +498,7 @@
             this.label4.Location = new System.Drawing.Point(12, 38);
             this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(160, 20);
+            this.label4.Size = new System.Drawing.Size(191, 25);
             this.label4.TabIndex = 172;
             this.label4.Text = "R.L.Application ID:";
             // 
@@ -507,13 +506,12 @@
             // 
             this.lblTitle.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTitle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.lblTitle.Location = new System.Drawing.Point(10, 6);
+            this.lblTitle.Location = new System.Drawing.Point(22, 9);
             this.lblTitle.Name = "lblTitle";
             this.lblTitle.Size = new System.Drawing.Size(875, 39);
             this.lblTitle.TabIndex = 176;
             this.lblTitle.Text = "Renew License Application";
             this.lblTitle.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.lblTitle.Click += new System.EventHandler(this.lblTitle_Click);
             // 
             // llShowLicenseInfo
             // 
@@ -521,7 +519,7 @@
             this.llShowLicenseInfo.Enabled = false;
             this.llShowLicenseInfo.Location = new System.Drawing.Point(213, 788);
             this.llShowLicenseInfo.Name = "llShowLicenseInfo";
-            this.llShowLicenseInfo.Size = new System.Drawing.Size(183, 20);
+            this.llShowLicenseInfo.Size = new System.Drawing.Size(226, 25);
             this.llShowLicenseInfo.TabIndex = 182;
             this.llShowLicenseInfo.TabStop = true;
             this.llShowLicenseInfo.Text = "Show New Licenses Info";
@@ -533,7 +531,7 @@
             this.llShowLicenseHistory.Enabled = false;
             this.llShowLicenseHistory.Location = new System.Drawing.Point(30, 788);
             this.llShowLicenseHistory.Name = "llShowLicenseHistory";
-            this.llShowLicenseHistory.Size = new System.Drawing.Size(169, 20);
+            this.llShowLicenseHistory.Size = new System.Drawing.Size(210, 25);
             this.llShowLicenseHistory.TabIndex = 181;
             this.llShowLicenseHistory.TabStop = true;
             this.llShowLicenseHistory.Text = "Show Licenses History";
@@ -542,7 +540,8 @@
             // ctrlDriverLicenseInfoWithFilter1
             // 
             this.ctrlDriverLicenseInfoWithFilter1.BackColor = System.Drawing.Color.White;
-            this.ctrlDriverLicenseInfoWithFilter1.FilterEnabled = true;
+            this.ctrlDriverLicenseInfoWithFilter1.FillterEnabled = true;
+            this.ctrlDriverLicenseInfoWithFilter1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ctrlDriverLicenseInfoWithFilter1.Location = new System.Drawing.Point(19, 32);
             this.ctrlDriverLicenseInfoWithFilter1.Margin = new System.Windows.Forms.Padding(6, 8, 6, 8);
             this.ctrlDriverLicenseInfoWithFilter1.Name = "ctrlDriverLicenseInfoWithFilter1";
@@ -552,7 +551,7 @@
             // 
             // frmRenewLocalDrivingLicenseApplication
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.CancelButton = this.btnClose;
@@ -619,7 +618,7 @@
         private System.Windows.Forms.Label lblApplicationID;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label lblTitle;
-        private Controls.ctrlDriverLicenseInfoWithFilter ctrlDriverLicenseInfoWithFilter1;
+        private Licenses.Local_License.Control.ctrlDriverLicenseInfoWithFilter ctrlDriverLicenseInfoWithFilter1;
         private System.Windows.Forms.LinkLabel llShowLicenseInfo;
         private System.Windows.Forms.LinkLabel llShowLicenseHistory;
         private System.Windows.Forms.Label lblIssueDate;

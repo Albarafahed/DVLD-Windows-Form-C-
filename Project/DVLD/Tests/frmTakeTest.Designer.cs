@@ -1,4 +1,4 @@
-﻿using DVLD_Buisness;
+﻿using DVLD.Tests.Controls;
 
 namespace DVLD.Tests
 {
@@ -35,12 +35,12 @@ namespace DVLD.Tests
             this.rbPass = new System.Windows.Forms.RadioButton();
             this.rbFail = new System.Windows.Forms.RadioButton();
             this.txtNotes = new System.Windows.Forms.TextBox();
+            this.lblUserMessage = new System.Windows.Forms.Label();
             this.btnClose = new System.Windows.Forms.Button();
             this.btnSave = new System.Windows.Forms.Button();
             this.pictureBox7 = new System.Windows.Forms.PictureBox();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
-            this.lblUserMessage = new System.Windows.Forms.Label();
-            this.ctrlSecheduledTest1 = new DVLD.Tests.ctrlSecheduledTest();
+            this.ctrlSecheduledTest1 = new DVLD.Tests.Controls.ctrlSecheduledTest();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             this.SuspendLayout();
@@ -52,7 +52,7 @@ namespace DVLD.Tests
             this.label10.Location = new System.Drawing.Point(65, 633);
             this.label10.Margin = new System.Windows.Forms.Padding(9, 0, 9, 0);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(61, 20);
+            this.label10.Size = new System.Drawing.Size(75, 25);
             this.label10.TabIndex = 191;
             this.label10.Text = "Notes:";
             // 
@@ -63,7 +63,7 @@ namespace DVLD.Tests
             this.label8.Location = new System.Drawing.Point(60, 597);
             this.label8.Margin = new System.Windows.Forms.Padding(9, 0, 9, 0);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(66, 20);
+            this.label8.Size = new System.Drawing.Size(79, 25);
             this.label8.TabIndex = 188;
             this.label8.Text = "Result:";
             // 
@@ -73,7 +73,7 @@ namespace DVLD.Tests
             this.rbPass.Checked = true;
             this.rbPass.Location = new System.Drawing.Point(179, 599);
             this.rbPass.Name = "rbPass";
-            this.rbPass.Size = new System.Drawing.Size(62, 24);
+            this.rbPass.Size = new System.Drawing.Size(77, 29);
             this.rbPass.TabIndex = 194;
             this.rbPass.TabStop = true;
             this.rbPass.Text = "Pass";
@@ -84,7 +84,7 @@ namespace DVLD.Tests
             this.rbFail.AutoSize = true;
             this.rbFail.Location = new System.Drawing.Point(247, 599);
             this.rbFail.Name = "rbFail";
-            this.rbFail.Size = new System.Drawing.Size(52, 24);
+            this.rbFail.Size = new System.Drawing.Size(64, 29);
             this.rbFail.TabIndex = 195;
             this.rbFail.Text = "Fail";
             this.rbFail.UseVisualStyleBackColor = true;
@@ -96,6 +96,20 @@ namespace DVLD.Tests
             this.txtNotes.Name = "txtNotes";
             this.txtNotes.Size = new System.Drawing.Size(408, 91);
             this.txtNotes.TabIndex = 196;
+            // 
+            // lblUserMessage
+            // 
+            this.lblUserMessage.AutoSize = true;
+            this.lblUserMessage.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblUserMessage.ForeColor = System.Drawing.Color.Red;
+            this.lblUserMessage.Location = new System.Drawing.Point(308, 601);
+            this.lblUserMessage.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
+            this.lblUserMessage.Name = "lblUserMessage";
+            this.lblUserMessage.Size = new System.Drawing.Size(304, 25);
+            this.lblUserMessage.TabIndex = 199;
+            this.lblUserMessage.Text = "You cannot change the results";
+            this.lblUserMessage.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lblUserMessage.Visible = false;
             // 
             // btnClose
             // 
@@ -149,20 +163,6 @@ namespace DVLD.Tests
             this.pictureBox4.TabIndex = 190;
             this.pictureBox4.TabStop = false;
             // 
-            // lblUserMessage
-            // 
-            this.lblUserMessage.AutoSize = true;
-            this.lblUserMessage.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblUserMessage.ForeColor = System.Drawing.Color.Red;
-            this.lblUserMessage.Location = new System.Drawing.Point(308, 601);
-            this.lblUserMessage.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
-            this.lblUserMessage.Name = "lblUserMessage";
-            this.lblUserMessage.Size = new System.Drawing.Size(255, 20);
-            this.lblUserMessage.TabIndex = 199;
-            this.lblUserMessage.Text = "You cannot change the results";
-            this.lblUserMessage.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.lblUserMessage.Visible = false;
-            // 
             // ctrlSecheduledTest1
             // 
             this.ctrlSecheduledTest1.BackColor = System.Drawing.Color.White;
@@ -173,10 +173,11 @@ namespace DVLD.Tests
             this.ctrlSecheduledTest1.Size = new System.Drawing.Size(588, 582);
             this.ctrlSecheduledTest1.TabIndex = 0;
             this.ctrlSecheduledTest1.TestTypeID = DVLD_Buisness.clsTestType.enTestType.VisionTest;
+            this.ctrlSecheduledTest1.Load += new System.EventHandler(this.ctrlSecheduledTest1_Load);
             // 
             // frmTakeTest
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoValidate = System.Windows.Forms.AutoValidate.EnableAllowFocusChange;
             this.BackColor = System.Drawing.Color.White;

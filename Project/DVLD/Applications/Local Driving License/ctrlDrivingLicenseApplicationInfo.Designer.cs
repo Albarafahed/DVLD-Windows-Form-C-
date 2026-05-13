@@ -1,4 +1,6 @@
-﻿namespace DVLD.Controls.ApplicationControls
+﻿using DVLD.Applications.Controls;
+
+namespace DVLD.Applications.Local_Driving_License
 {
     partial class ctrlDrivingLicenseApplicationInfo
     {
@@ -40,7 +42,7 @@
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.lblLocalDrivingLicenseApplicationID = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
-            this.ctrlApplicationBasicInfo1 = new DVLD.Controls.ApplicationControls.ctrlApplicationBasicInfo();
+            this.ctrlApplicationBasicInfo1 = new DVLD.Applications.Controls.ctrlApplicationBasicInfo();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -194,7 +196,6 @@
             this.ctrlApplicationBasicInfo1.Name = "ctrlApplicationBasicInfo1";
             this.ctrlApplicationBasicInfo1.Size = new System.Drawing.Size(900, 217);
             this.ctrlApplicationBasicInfo1.TabIndex = 0;
-            this.ctrlApplicationBasicInfo1.Load += new System.EventHandler(this.ctrlApplicationBasicInfo1_Load);
             // 
             // ctrlDrivingLicenseApplicationInfo
             // 

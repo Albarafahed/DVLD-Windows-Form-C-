@@ -1,7 +1,5 @@
-﻿using DVLD.Classes;
-using DVLD.People;
-using DVLD.Properties;
-using DVLD_Buisness;
+﻿using DVLD_Buisness;
+using DVLD.Classes;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -12,37 +10,19 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace DVLD.Controls.ApplicationControls
+namespace DVLD.Applications.Controls
 {
     public partial class ctrlApplicationBasicInfo : UserControl
     {
-
         private clsApplication _Application;
-
-        private int _ApplicationID = -1;
-
-        public int ApplicationID
-        {
-            get { return _ApplicationID; }
-        }
-
+        private int _ApplicationID=-1;
         public ctrlApplicationBasicInfo()
         {
             InitializeComponent();
-  
         }
 
-        public void LoadApplicationInfo(int ApplicationID)
-        {
-            _Application = clsApplication.FindBaseApplication(ApplicationID);
-            if (_Application == null)
-            {
-                ResetApplicationInfo();
-                MessageBox.Show("No Application with ApplicationID = " + ApplicationID.ToString(), "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
-            else
-                _FillApplicationInfo();
-        }
+        public int ApplicationID { get { return _ApplicationID; } }
+        public int PersonID { get { return _Application.ApplicantPersonID; } }
 
         private void _FillApplicationInfo()
         {
@@ -55,6 +35,18 @@ namespace DVLD.Controls.ApplicationControls
             lblDate.Text = clsFormat.DateToShort(_Application.ApplicationDate);
             lblStatusDate.Text = clsFormat.DateToShort(_Application.LastStatusDate);
             lblCreatedByUser.Text = _Application.CreatedByUserInfo.UserName;
+
+        }
+        public void LoadApplicationInfo(int ApplicationID)
+        {
+            _Application=clsApplication.FindBaseApplication(ApplicationID);
+            if (_Application == null)
+            {
+                ResetApplicationInfo();
+                MessageBox.Show("No Application with ApplicationID = " + ApplicationID.ToString(), "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            else
+                _FillApplicationInfo();
         }
 
         public void ResetApplicationInfo()
@@ -74,11 +66,16 @@ namespace DVLD.Controls.ApplicationControls
 
         private void llViewPersonInfo_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            frmShowPersonInfo frm = new frmShowPersonInfo(_Application.ApplicantPersonID);
+
+            frmShowPersonDatalis frm = new frmShowPersonDatalis(_Application.ApplicantPersonID);
             frm.ShowDialog();
 
             //Refresh
             LoadApplicationInfo(_ApplicationID);
+        }
+
+        private void groupBox1_Enter(object sender, EventArgs e)
+        {
 
         }
     }

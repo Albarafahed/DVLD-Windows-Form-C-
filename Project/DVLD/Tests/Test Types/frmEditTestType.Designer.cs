@@ -1,4 +1,4 @@
-﻿namespace DVLD.Tests
+﻿namespace DVLD
 {
     partial class frmEditTestType
     {
@@ -60,7 +60,7 @@
             this.lblTitle.TabIndex = 149;
             this.lblTitle.Text = "Update Test Type";
             this.lblTitle.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-             // 
+            // 
             // lblTestTypeID
             // 
             this.lblTestTypeID.AutoSize = true;

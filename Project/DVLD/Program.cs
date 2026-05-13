@@ -1,7 +1,5 @@
-﻿using DVLD.Applications;
-using DVLD.Login;
+﻿using DVLD.Applications.Local_Driving_License;
 using DVLD.People;
-using DVLD.Tests;
 using DVLD.User;
 using System;
 using System.Collections.Generic;
@@ -19,13 +17,12 @@ namespace DVLD
         [STAThread]
         static void Main()
         {
+          
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            // Application.Run(new frmMain());
-            //Application.Run(new frmTest2());
-            Application.Run(new frmLogin());
-         
 
+            Application.Run(new frmLoginScreen());
+            //Application.Run(new frmAddUpdateLocalDrivingLicesnseApplication());
 
         }
     }

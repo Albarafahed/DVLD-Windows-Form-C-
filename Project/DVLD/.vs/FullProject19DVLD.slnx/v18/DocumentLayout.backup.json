@@ -1,0 +1,256 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Albara\\My Projects\\Wnidows Form C#\\DVLD-Windows-Form-C-\\DVLD\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9D7EE035-E38A-4037-8232-86D0CAFF29C3}|DVLD.csproj|d:\\albara\\my projects\\wnidows form c#\\dvld-windows-form-c-\\dvld\\drivers\\frmlistdrivers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D7EE035-E38A-4037-8232-86D0CAFF29C3}|DVLD.csproj|solutionrelative:drivers\\frmlistdrivers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D7EE035-E38A-4037-8232-86D0CAFF29C3}|DVLD.csproj|d:\\albara\\my projects\\wnidows form c#\\dvld-windows-form-c-\\dvld\\drivers\\frmlistdrivers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{9D7EE035-E38A-4037-8232-86D0CAFF29C3}|DVLD.csproj|solutionrelative:drivers\\frmlistdrivers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D7EE035-E38A-4037-8232-86D0CAFF29C3}|DVLD.csproj|d:\\albara\\my projects\\wnidows form c#\\dvld-windows-form-c-\\dvld\\frmmainscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D7EE035-E38A-4037-8232-86D0CAFF29C3}|DVLD.csproj|solutionrelative:frmmainscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D7EE035-E38A-4037-8232-86D0CAFF29C3}|DVLD.csproj|D:\\Albara\\My Projects\\Wnidows Form C#\\DVLD-Windows-Form-C-\\DVLD\\frmmainscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{9D7EE035-E38A-4037-8232-86D0CAFF29C3}|DVLD.csproj|solutionrelative:frmmainscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D7EE035-E38A-4037-8232-86D0CAFF29C3}|DVLD.csproj|d:\\albara\\my projects\\wnidows form c#\\dvld-windows-form-c-\\dvld\\global classes\\clsglobal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D7EE035-E38A-4037-8232-86D0CAFF29C3}|DVLD.csproj|solutionrelative:global classes\\clsglobal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D7EE035-E38A-4037-8232-86D0CAFF29C3}|DVLD.csproj|d:\\albara\\my projects\\wnidows form c#\\dvld-windows-form-c-\\dvld\\licenses\\local license\\frmissuedriverlicensefirsttime.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D7EE035-E38A-4037-8232-86D0CAFF29C3}|DVLD.csproj|solutionrelative:licenses\\local license\\frmissuedriverlicensefirsttime.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D7EE035-E38A-4037-8232-86D0CAFF29C3}|DVLD.csproj|d:\\albara\\my projects\\wnidows form c#\\dvld-windows-form-c-\\dvld\\applications\\renew local license\\frmrenewlocaldrivinglicenseapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D7EE035-E38A-4037-8232-86D0CAFF29C3}|DVLD.csproj|solutionrelative:applications\\renew local license\\frmrenewlocaldrivinglicenseapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D7EE035-E38A-4037-8232-86D0CAFF29C3}|DVLD.csproj|d:\\albara\\my projects\\wnidows form c#\\dvld-windows-form-c-\\dvld\\applications\\local driving license\\frmaddupdatelocaldrivinglicesnseapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D7EE035-E38A-4037-8232-86D0CAFF29C3}|DVLD.csproj|solutionrelative:applications\\local driving license\\frmaddupdatelocaldrivinglicesnseapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D7EE035-E38A-4037-8232-86D0CAFF29C3}|DVLD.csproj|d:\\albara\\my projects\\wnidows form c#\\dvld-windows-form-c-\\dvld\\applications\\international licenses\\frmnewinternationallicenseapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D7EE035-E38A-4037-8232-86D0CAFF29C3}|DVLD.csproj|solutionrelative:applications\\international licenses\\frmnewinternationallicenseapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D7EE035-E38A-4037-8232-86D0CAFF29C3}|DVLD.csproj|d:\\albara\\my projects\\wnidows form c#\\dvld-windows-form-c-\\dvld\\login\\frmloginscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D7EE035-E38A-4037-8232-86D0CAFF29C3}|DVLD.csproj|solutionrelative:login\\frmloginscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C27FCA6F-E63C-431B-8AA4-59F31518D0A1}|..\\DVLD_Buisness\\DVLD_Buisness.csproj|d:\\albara\\my projects\\wnidows form c#\\dvld-windows-form-c-\\dvld_buisness\\clsusers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D7EE035-E38A-4037-8232-86D0CAFF29C3}|DVLD.csproj|d:\\albara\\my projects\\wnidows form c#\\dvld-windows-form-c-\\dvld\\login\\frmloginscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{9D7EE035-E38A-4037-8232-86D0CAFF29C3}|DVLD.csproj|solutionrelative:login\\frmloginscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D7EE035-E38A-4037-8232-86D0CAFF29C3}|DVLD.csproj|d:\\albara\\my projects\\wnidows form c#\\dvld-windows-form-c-\\dvld\\login\\frmloginscreen.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D7EE035-E38A-4037-8232-86D0CAFF29C3}|DVLD.csproj|solutionrelative:login\\frmloginscreen.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D7EE035-E38A-4037-8232-86D0CAFF29C3}|DVLD.csproj|D:\\Albara\\My Projects\\Wnidows Form C#\\DVLD-Windows-Form-C-\\DVLD\\applications\\rlease detained license\\frmlistdetainedlicenses.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{9D7EE035-E38A-4037-8232-86D0CAFF29C3}|DVLD.csproj|solutionrelative:applications\\rlease detained license\\frmlistdetainedlicenses.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "frmListDrivers.cs",
+              "DocumentMoniker": "D:\\Albara\\My Projects\\Wnidows Form C#\\DVLD-Windows-Form-C-\\DVLD\\Drivers\\frmListDrivers.cs",
+              "RelativeDocumentMoniker": "Drivers\\frmListDrivers.cs",
+              "ToolTip": "D:\\Albara\\My Projects\\Wnidows Form C#\\DVLD-Windows-Form-C-\\DVLD\\Drivers\\frmListDrivers.cs",
+              "RelativeToolTip": "Drivers\\frmListDrivers.cs",
+              "ViewState": "AgIAAHsAAAAAAAAAAAAQwIwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-13T15:04:45.66Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "frmListDrivers.cs [Design]",
+              "DocumentMoniker": "D:\\Albara\\My Projects\\Wnidows Form C#\\DVLD-Windows-Form-C-\\DVLD\\Drivers\\frmListDrivers.cs",
+              "RelativeDocumentMoniker": "Drivers\\frmListDrivers.cs",
+              "ToolTip": "D:\\Albara\\My Projects\\Wnidows Form C#\\DVLD-Windows-Form-C-\\DVLD\\Drivers\\frmListDrivers.cs [Design]",
+              "RelativeToolTip": "Drivers\\frmListDrivers.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-13T15:01:03.532Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "frmAddUpdateLocalDrivingLicesnseApplication.cs",
+              "DocumentMoniker": "D:\\Albara\\My Projects\\Wnidows Form C#\\DVLD-Windows-Form-C-\\DVLD\\Applications\\Local Driving License\\frmAddUpdateLocalDrivingLicesnseApplication.cs",
+              "RelativeDocumentMoniker": "Applications\\Local Driving License\\frmAddUpdateLocalDrivingLicesnseApplication.cs",
+              "ToolTip": "D:\\Albara\\My Projects\\Wnidows Form C#\\DVLD-Windows-Form-C-\\DVLD\\Applications\\Local Driving License\\frmAddUpdateLocalDrivingLicesnseApplication.cs",
+              "RelativeToolTip": "Applications\\Local Driving License\\frmAddUpdateLocalDrivingLicesnseApplication.cs",
+              "ViewState": "AgIAALcAAAAAAAAAAAAtwMUAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-13T14:55:13.135Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "frmMainScreen.cs [Design]",
+              "DocumentMoniker": "D:\\Albara\\My Projects\\Wnidows Form C#\\DVLD-Windows-Form-C-\\DVLD\\frmMainScreen.cs",
+              "RelativeDocumentMoniker": "frmMainScreen.cs",
+              "ToolTip": "D:\\Albara\\My Projects\\Wnidows Form C#\\DVLD-Windows-Form-C-\\DVLD\\frmMainScreen.cs [Design]",
+              "RelativeToolTip": "frmMainScreen.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-12T18:25:28.031Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "frmMainScreen.cs",
+              "DocumentMoniker": "D:\\Albara\\My Projects\\Wnidows Form C#\\DVLD-Windows-Form-C-\\DVLD\\frmMainScreen.cs",
+              "RelativeDocumentMoniker": "frmMainScreen.cs",
+              "ToolTip": "D:\\Albara\\My Projects\\Wnidows Form C#\\DVLD-Windows-Form-C-\\DVLD\\frmMainScreen.cs",
+              "RelativeToolTip": "frmMainScreen.cs",
+              "ViewState": "AgIAAIcAAAAAAAAAAAAAwJMAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-13T14:57:01.673Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "frmRenewLocalDrivingLicenseApplication.cs",
+              "DocumentMoniker": "D:\\Albara\\My Projects\\Wnidows Form C#\\DVLD-Windows-Form-C-\\DVLD\\Applications\\Renew Local License\\frmRenewLocalDrivingLicenseApplication.cs",
+              "RelativeDocumentMoniker": "Applications\\Renew Local License\\frmRenewLocalDrivingLicenseApplication.cs",
+              "ToolTip": "D:\\Albara\\My Projects\\Wnidows Form C#\\DVLD-Windows-Form-C-\\DVLD\\Applications\\Renew Local License\\frmRenewLocalDrivingLicenseApplication.cs",
+              "RelativeToolTip": "Applications\\Renew Local License\\frmRenewLocalDrivingLicenseApplication.cs",
+              "ViewState": "AgIAAD0AAAAAAAAAAAAtwE4AAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-13T14:56:49.277Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "frmIssueDriverLicenseFirstTime.cs",
+              "DocumentMoniker": "D:\\Albara\\My Projects\\Wnidows Form C#\\DVLD-Windows-Form-C-\\DVLD\\Licenses\\Local License\\frmIssueDriverLicenseFirstTime.cs",
+              "RelativeDocumentMoniker": "Licenses\\Local License\\frmIssueDriverLicenseFirstTime.cs",
+              "ToolTip": "D:\\Albara\\My Projects\\Wnidows Form C#\\DVLD-Windows-Form-C-\\DVLD\\Licenses\\Local License\\frmIssueDriverLicenseFirstTime.cs",
+              "RelativeToolTip": "Licenses\\Local License\\frmIssueDriverLicenseFirstTime.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAhwEUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-13T14:57:40.477Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "frmNewInternationalLicenseApplication.cs",
+              "DocumentMoniker": "D:\\Albara\\My Projects\\Wnidows Form C#\\DVLD-Windows-Form-C-\\DVLD\\Applications\\International Licenses\\frmNewInternationalLicenseApplication.cs",
+              "RelativeDocumentMoniker": "Applications\\International Licenses\\frmNewInternationalLicenseApplication.cs",
+              "ToolTip": "D:\\Albara\\My Projects\\Wnidows Form C#\\DVLD-Windows-Form-C-\\DVLD\\Applications\\International Licenses\\frmNewInternationalLicenseApplication.cs",
+              "RelativeToolTip": "Applications\\International Licenses\\frmNewInternationalLicenseApplication.cs",
+              "ViewState": "AgIAAHEAAAAAAAAAAAApwH4AAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-13T14:54:39.432Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "clsGlobal.cs",
+              "DocumentMoniker": "D:\\Albara\\My Projects\\Wnidows Form C#\\DVLD-Windows-Form-C-\\DVLD\\global classes\\clsGlobal.cs",
+              "RelativeDocumentMoniker": "global classes\\clsGlobal.cs",
+              "ToolTip": "D:\\Albara\\My Projects\\Wnidows Form C#\\DVLD-Windows-Form-C-\\DVLD\\global classes\\clsGlobal.cs",
+              "RelativeToolTip": "global classes\\clsGlobal.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABEAAABYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-13T14:02:06.275Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "clsUsers.cs",
+              "DocumentMoniker": "D:\\Albara\\My Projects\\Wnidows Form C#\\DVLD-Windows-Form-C-\\DVLD_Buisness\\clsUsers.cs",
+              "RelativeDocumentMoniker": "..\\DVLD_Buisness\\clsUsers.cs",
+              "ToolTip": "D:\\Albara\\My Projects\\Wnidows Form C#\\DVLD-Windows-Form-C-\\DVLD_Buisness\\clsUsers.cs",
+              "RelativeToolTip": "..\\DVLD_Buisness\\clsUsers.cs",
+              "ViewState": "AgIAAIcAAAAAAAAAAAApwJQAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-13T14:39:02.425Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "frmLoginScreen.cs",
+              "DocumentMoniker": "D:\\Albara\\My Projects\\Wnidows Form C#\\DVLD-Windows-Form-C-\\DVLD\\Login\\frmLoginScreen.cs",
+              "RelativeDocumentMoniker": "Login\\frmLoginScreen.cs",
+              "ToolTip": "D:\\Albara\\My Projects\\Wnidows Form C#\\DVLD-Windows-Form-C-\\DVLD\\Login\\frmLoginScreen.cs",
+              "RelativeToolTip": "Login\\frmLoginScreen.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAawCIAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-13T13:29:10.259Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "frmLoginScreen.Designer.cs",
+              "DocumentMoniker": "D:\\Albara\\My Projects\\Wnidows Form C#\\DVLD-Windows-Form-C-\\DVLD\\Login\\frmLoginScreen.Designer.cs",
+              "RelativeDocumentMoniker": "Login\\frmLoginScreen.Designer.cs",
+              "ToolTip": "D:\\Albara\\My Projects\\Wnidows Form C#\\DVLD-Windows-Form-C-\\DVLD\\Login\\frmLoginScreen.Designer.cs",
+              "RelativeToolTip": "Login\\frmLoginScreen.Designer.cs",
+              "ViewState": "AgIAAO8AAAAAAAAAAAAYwO8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-13T13:28:01.55Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "frmLoginScreen.cs [Design]",
+              "DocumentMoniker": "D:\\Albara\\My Projects\\Wnidows Form C#\\DVLD-Windows-Form-C-\\DVLD\\Login\\frmLoginScreen.cs",
+              "RelativeDocumentMoniker": "Login\\frmLoginScreen.cs",
+              "ToolTip": "D:\\Albara\\My Projects\\Wnidows Form C#\\DVLD-Windows-Form-C-\\DVLD\\Login\\frmLoginScreen.cs [Design]",
+              "RelativeToolTip": "Login\\frmLoginScreen.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-13T13:23:07.352Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "frmListDetainedLicenses.cs [Design]",
+              "DocumentMoniker": "D:\\Albara\\My Projects\\Wnidows Form C#\\DVLD-Windows-Form-C-\\DVLD\\Applications\\Rlease Detained License\\frmListDetainedLicenses.cs",
+              "RelativeDocumentMoniker": "Applications\\Rlease Detained License\\frmListDetainedLicenses.cs",
+              "ToolTip": "D:\\Albara\\My Projects\\Wnidows Form C#\\DVLD-Windows-Form-C-\\DVLD\\Applications\\Rlease Detained License\\frmListDetainedLicenses.cs [Design]",
+              "RelativeToolTip": "Applications\\Rlease Detained License\\frmListDetainedLicenses.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-12T20:42:39.988Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

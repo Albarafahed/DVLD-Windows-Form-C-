@@ -1,4 +1,5 @@
-﻿using DVLD.Classes;
+﻿using DVLD_Buisness;
+using DVLD.Classes;
 using DVLD_Buisness;
 using System;
 using System.Collections.Generic;
@@ -10,7 +11,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace DVLD.Tests
+namespace DVLD
 {
 
 

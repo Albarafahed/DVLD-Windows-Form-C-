@@ -1,4 +1,6 @@
-﻿namespace DVLD.Tests
+﻿using DVLD.Tests.Controls;
+
+namespace DVLD.Tests
 {
     partial class frmScheduleTest
     {
@@ -28,7 +30,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.ctrlScheduleTest1 = new DVLD.Tests.ctrlScheduleTest();
+            this.ctrlScheduleTest1 = new DVLD.Tests.Controls.ctrlScheduleTest();
             this.btnClose = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 

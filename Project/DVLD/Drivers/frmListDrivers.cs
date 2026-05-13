@@ -1,5 +1,4 @@
-﻿using DVLD.Licenses.International_License;
-using DVLD.People;
+﻿using DVLD.Licenses.Local_License;
 using DVLD_Buisness;
 using System;
 using System.Collections.Generic;
@@ -16,25 +15,19 @@ namespace DVLD.Drivers
     public partial class frmListDrivers : Form
     {
         private DataTable _dtAllDrivers;
-
         public frmListDrivers()
         {
             InitializeComponent();
         }
 
-        private void btnClose_Click(object sender, EventArgs e)
-        {
-            this.Close();
-
-        }
-
         private void frmListDrivers_Load(object sender, EventArgs e)
         {
+
             cbFilterBy.SelectedIndex = 0;
             _dtAllDrivers = clsDriver.GetAllDrivers();
             dgvDrivers.DataSource = _dtAllDrivers;
             lblRecordsCount.Text = dgvDrivers.Rows.Count.ToString();
-            if (dgvDrivers.Rows.Count>0)
+            if (dgvDrivers.Rows.Count > 0)
             {
                 dgvDrivers.Columns[0].HeaderText = "Driver ID";
                 dgvDrivers.Columns[0].Width = 120;
@@ -54,15 +47,12 @@ namespace DVLD.Drivers
                 dgvDrivers.Columns[5].HeaderText = "Active Licenses";
                 dgvDrivers.Columns[5].Width = 150;
             }
-          
-
-
         }
 
         private void cbFilterBy_SelectedIndexChanged(object sender, EventArgs e)
         {
             txtFilterValue.Visible = (cbFilterBy.Text != "None");
-         
+
 
             if (cbFilterBy.Text == "None")
             {
@@ -73,6 +63,12 @@ namespace DVLD.Drivers
 
             txtFilterValue.Text = "";
             txtFilterValue.Focus();
+        }
+
+        private void txtFilterValue_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (cbFilterBy.Text == "Driver ID" || cbFilterBy.Text == "Person ID")
+                e.Handled = !char.IsDigit(e.KeyChar) && !char.IsControl(e.KeyChar);
         }
 
         private void txtFilterValue_TextChanged(object sender, EventArgs e)
@@ -104,39 +100,30 @@ namespace DVLD.Drivers
 
             }
 
-            //Reset the filters in case nothing selected or filter value conains nothing.
-            if (txtFilterValue.Text.Trim() == "" || FilterColumn == "None")
+            if(FilterColumn=="None" || txtFilterValue.Text=="")
             {
                 _dtAllDrivers.DefaultView.RowFilter = "";
-                lblRecordsCount.Text = dgvDrivers.Rows.Count.ToString();
+                lblRecordsCount.Text=_dtAllDrivers.Rows.Count.ToString();
                 return;
             }
 
-
-            if (FilterColumn != "FullName" && FilterColumn != "NationalNo")
-                //in this case we deal with numbers not string.
-                _dtAllDrivers.DefaultView.RowFilter = string.Format("[{0}] = {1}", FilterColumn, txtFilterValue.Text.Trim());
+            if(FilterColumn == "PersonID" || FilterColumn == "DriverID")
+                _dtAllDrivers.DefaultView.RowFilter = string.Format("[{0}] = {1}",FilterColumn,txtFilterValue.Text);
+               
+         
             else
-                _dtAllDrivers.DefaultView.RowFilter = string.Format("[{0}] LIKE '{1}%'", FilterColumn, txtFilterValue.Text.Trim());
-
+            
+                _dtAllDrivers.DefaultView.RowFilter = string.Format("[{0}] LIKE '{1}%'", FilterColumn, txtFilterValue.Text);
             lblRecordsCount.Text = _dtAllDrivers.Rows.Count.ToString();
-        }
-
-        private void txtFilterValue_KeyPress(object sender, KeyPressEventArgs e)
-        {
-            //we allow number incase person id or user id is selected.
-            if (cbFilterBy.Text == "Driver ID" || cbFilterBy.Text == "Person ID")
-                e.Handled = !char.IsDigit(e.KeyChar) && !char.IsControl(e.KeyChar);
         }
 
         private void showDetailsToolStripMenuItem_Click(object sender, EventArgs e)
         {
             int PersonID = (int)dgvDrivers.CurrentRow.Cells[1].Value;
-            frmShowPersonInfo frm = new frmShowPersonInfo(PersonID);
-            frm.ShowDialog();
-            //refresh
-            frmListDrivers_Load(null, null);
 
+
+            frmShowPersonDatalis frm = new frmShowPersonDatalis(PersonID);
+            frm.ShowDialog();
         }
 
         private void issueInternationalLicenseToolStripMenuItem_Click(object sender, EventArgs e)
@@ -148,7 +135,7 @@ namespace DVLD.Drivers
         {
             int PersonID = (int)dgvDrivers.CurrentRow.Cells[1].Value;
 
-          
+
             frmShowPersonLicenseHistory frm = new frmShowPersonLicenseHistory(PersonID);
             frm.ShowDialog();
         }

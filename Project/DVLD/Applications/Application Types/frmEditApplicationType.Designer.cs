@@ -1,4 +1,4 @@
-﻿namespace DVLD.Applications
+﻿namespace DVLD
 {
     partial class frmEditApplicationType
     {
@@ -53,7 +53,7 @@
             this.lblApplicationTypeID.Location = new System.Drawing.Point(117, 81);
             this.lblApplicationTypeID.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblApplicationTypeID.Name = "lblApplicationTypeID";
-            this.lblApplicationTypeID.Size = new System.Drawing.Size(39, 20);
+            this.lblApplicationTypeID.Size = new System.Drawing.Size(48, 25);
             this.lblApplicationTypeID.TabIndex = 137;
             this.lblApplicationTypeID.Text = "???";
             // 
@@ -64,7 +64,7 @@
             this.label4.Location = new System.Drawing.Point(28, 81);
             this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(33, 20);
+            this.label4.Size = new System.Drawing.Size(40, 25);
             this.label4.TabIndex = 136;
             this.label4.Text = "ID:";
             // 
@@ -74,7 +74,7 @@
             this.txtTitle.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtTitle.MaxLength = 50;
             this.txtTitle.Name = "txtTitle";
-            this.txtTitle.Size = new System.Drawing.Size(282, 26);
+            this.txtTitle.Size = new System.Drawing.Size(282, 30);
             this.txtTitle.TabIndex = 130;
             this.txtTitle.Validating += new System.ComponentModel.CancelEventHandler(this.txtTitle_Validating);
             // 
@@ -85,7 +85,7 @@
             this.label1.Location = new System.Drawing.Point(13, 119);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(48, 20);
+            this.label1.Size = new System.Drawing.Size(61, 25);
             this.label1.TabIndex = 132;
             this.label1.Text = "Title:";
             // 
@@ -96,7 +96,7 @@
             this.label2.Location = new System.Drawing.Point(13, 155);
             this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(49, 20);
+            this.label2.Size = new System.Drawing.Size(60, 25);
             this.label2.TabIndex = 133;
             this.label2.Text = "Fees";
             // 
@@ -106,7 +106,7 @@
             this.txtFees.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtFees.MaxLength = 50;
             this.txtFees.Name = "txtFees";
-            this.txtFees.Size = new System.Drawing.Size(282, 26);
+            this.txtFees.Size = new System.Drawing.Size(282, 30);
             this.txtFees.TabIndex = 131;
             this.txtFees.Validating += new System.ComponentModel.CancelEventHandler(this.txtFees_Validating);
             // 
@@ -120,7 +120,8 @@
             this.lblTitle.TabIndex = 138;
             this.lblTitle.Text = "Update Application Type";
             this.lblTitle.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-             // 
+            this.lblTitle.Click += new System.EventHandler(this.lblTitle_Click);
+            // 
             // errorProvider1
             // 
             this.errorProvider1.ContainerControl = this;
@@ -176,7 +177,7 @@
             // frmEditApplicationType
             // 
             this.AcceptButton = this.btnSave;
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoValidate = System.Windows.Forms.AutoValidate.EnableAllowFocusChange;
             this.BackColor = System.Drawing.Color.White;

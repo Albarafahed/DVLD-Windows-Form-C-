@@ -1,15 +1,15 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{C1BE28AD-D036-4C77-964C-9EE4ACC6727A}</ProjectGuid>
+    <ProjectGuid>{54BCC5B4-2240-4934-9410-5D84DADA1B8D}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>DVLD_DataAccess</RootNamespace>
     <AssemblyName>DVLD_DataAccess</AssemblyName>
-    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
   </PropertyGroup>
@@ -41,21 +41,22 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="clsDetainedLicense.cs" />
-    <Compile Include="clsDriver.cs" />
-    <Compile Include="clsInternationalLicense.cs" />
-    <Compile Include="clsLicense.cs" />
-    <Compile Include="clsTestAppointment.cs" />
-    <Compile Include="clsTest.cs" />
-    <Compile Include="clsTestType.cs" />
-    <Compile Include="clsLocalDrivingLicenseApplicationData.cs" />
-    <Compile Include="LicenseClass.cs" />
-    <Compile Include="clsApplication.cs" />
     <Compile Include="ApplicationType.cs" />
-    <Compile Include="clsDataAccessSettings.cs" />
-    <Compile Include="clsUserData.cs" />
-    <Compile Include="clsPersonData.cs" />
+    <Compile Include="clsApplicationData.cs" />
     <Compile Include="clsCountryData.cs" />
+    <Compile Include="clsDataAccessLoginScreen.cs" />
+    <Compile Include="clsDataAccessSettings.cs" />
+    <Compile Include="clsDataUsrers.cs" />
+    <Compile Include="clsDetainedLicenseData.cs" />
+    <Compile Include="clsDriverData.cs" />
+    <Compile Include="clsInternationalLicenseData.cs" />
+    <Compile Include="clsLicenseClassData.cs" />
+    <Compile Include="clsLicenseData.cs" />
+    <Compile Include="clsLocalDrivingApplicationData.cs" />
+    <Compile Include="clsPersonData.cs" />
+    <Compile Include="clsTestAppointmentData.cs" />
+    <Compile Include="clsTestData.cs" />
+    <Compile Include="clsTestType.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

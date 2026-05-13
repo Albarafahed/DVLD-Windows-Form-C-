@@ -1,13 +1,16 @@
-﻿using System;
+﻿using DVLD_DataAccess;
+using DVLD_Buisness;
+using System;
+using System.Collections.Generic;
 using System.Data;
-using System.Diagnostics.Eventing.Reader;
-using DVLD_DataAccess;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
 namespace DVLD_Buisness
 {
     public class clsDriver
     {
-
         public enum enMode { AddNew = 0, Update = 1 };
         public enMode Mode = enMode.AddNew;
 
@@ -16,7 +19,7 @@ namespace DVLD_Buisness
         public int DriverID { set; get; }
         public int PersonID { set; get; }
         public int CreatedByUserID { set; get; }
-        public DateTime CreatedDate {  get; }
+        public DateTime CreatedDate { get; }
 
         public clsDriver()
 
@@ -24,12 +27,12 @@ namespace DVLD_Buisness
             this.DriverID = -1;
             this.PersonID = -1;
             this.CreatedByUserID = -1;
-            this.CreatedDate=DateTime.Now;
+            this.CreatedDate = DateTime.Now;
             Mode = enMode.AddNew;
 
         }
 
-        public clsDriver(int DriverID, int PersonID,int CreatedByUserID, DateTime CreatedDate)
+        public clsDriver(int DriverID, int PersonID, int CreatedByUserID, DateTime CreatedDate)
 
         {
             this.DriverID = DriverID;
@@ -41,31 +44,14 @@ namespace DVLD_Buisness
             Mode = enMode.Update;
         }
 
-        private bool _AddNewDriver()
-        {
-            //call DataAccess Layer 
-
-            this.DriverID = clsDriverData.AddNewDriver( PersonID,  CreatedByUserID);
-              
-
-            return (this.DriverID != -1);
-        }
-
-        private bool _UpdateDriver()
-        {
-            //call DataAccess Layer 
-
-            return clsDriverData.UpdateDriver(this.DriverID,this.PersonID,this.CreatedByUserID);
-        }
-
         public static clsDriver FindByDriverID(int DriverID)
         {
-            
-            int PersonID = -1; int CreatedByUserID = -1;DateTime CreatedDate= DateTime.Now; 
 
-            if (clsDriverData.GetDriverInfoByDriverID(DriverID, ref PersonID,ref CreatedByUserID,ref CreatedDate))
+            int PersonID = -1; int CreatedByUserID = -1; DateTime CreatedDate = DateTime.Now;
 
-                return new clsDriver(DriverID,  PersonID,  CreatedByUserID,  CreatedDate);
+            if (clsDriverData.GetDriverInfoByDriverID(DriverID, ref PersonID, ref CreatedByUserID, ref CreatedDate))
+
+                return new clsDriver(DriverID, PersonID, CreatedByUserID, CreatedDate);
             else
                 return null;
 
@@ -76,7 +62,7 @@ namespace DVLD_Buisness
 
             int DriverID = -1; int CreatedByUserID = -1; DateTime CreatedDate = DateTime.Now;
 
-            if (clsDriverData.GetDriverInfoByPersonID( PersonID, ref DriverID,  ref CreatedByUserID, ref CreatedDate))
+            if (clsDriverData.GetDriverInfoByPersonID(PersonID, ref DriverID, ref CreatedByUserID, ref CreatedDate))
 
                 return new clsDriver(DriverID, PersonID, CreatedByUserID, CreatedDate);
             else
@@ -84,37 +70,22 @@ namespace DVLD_Buisness
 
         }
 
+        private bool _AddNewDriver()
+        {
+            this.DriverID=clsDriverData.AddNewDriver(this.PersonID,this.CreatedByUserID,this.CreatedDate);
+            return this.DriverID > 0;
+        }
+
+        private bool _UpdateDriver()
+        {
+            return clsDriverData.UpdateDriver(this.DriverID,this.PersonID, this.CreatedByUserID, this.CreatedDate);
+           
+        }
+
         public static DataTable GetAllDrivers()
         {
             return clsDriverData.GetAllDrivers();
-
         }
-
-        public bool Save()
-        {
-            switch (Mode)
-            {
-                case enMode.AddNew:
-                    if (_AddNewDriver())
-                    {
-
-                        Mode = enMode.Update;
-                        return true;
-                    }
-                    else
-                    {
-                        return false;
-                    }
-
-                case enMode.Update:
-
-                    return _UpdateDriver();
-
-            }
-
-            return false;
-        }
-
         public static DataTable GetLicenses(int DriverID)
         {
             return clsLicense.GetDriverLicenses(DriverID);
@@ -124,6 +95,27 @@ namespace DVLD_Buisness
         {
             return clsInternationalLicense.GetDriverInternationalLicenses(DriverID);
         }
+
+        public bool Save()
+        {
+            switch(Mode)
+            {
+                case enMode.AddNew:
+                    if (_AddNewDriver())
+                    {
+                        Mode = enMode.Update;
+                        return true;
+                    }
+                    break;
+                case enMode.Update:
+                    return _UpdateDriver();
+
+            }
+
+            return false;
+        }
+
+
 
     }
 }

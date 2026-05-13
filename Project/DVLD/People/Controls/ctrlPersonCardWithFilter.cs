@@ -1,6 +1,4 @@
-﻿using DVLD.People;
-using DVLD_Buisness;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -10,49 +8,20 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace DVLD.Controls
+namespace DVLD.People.Controls
 {
     public partial class ctrlPersonCardWithFilter : UserControl
     {
-        
-        // Define a custom event handler delegate with parameters
+        private int _PersonId = -1;
+
         public event Action<int> OnPersonSelected;
         // Create a protected method to raise the event with a parameter
         protected virtual void PersonSelected(int PersonID)
         {
-            Action<int> handler = OnPersonSelected; 
+            Action<int> handler = OnPersonSelected;
             if (handler != null)
             {
                 handler(PersonID); // Raise the event with the parameter
-            }
-        }
-
-
-       private bool _ShowAddPerson=true;
-       public bool ShowAddPerson
-        {
-            get
-            {
-                return _ShowAddPerson;
-            }
-            set
-            {
-                _ShowAddPerson=value;
-                btnAddNewPerson.Visible = _ShowAddPerson;
-            }
-        }
-
-        private bool _FilterEnabled = true;
-        public bool FilterEnabled
-        {
-            get
-            {
-                return _FilterEnabled;
-            }
-            set
-            {
-                _FilterEnabled = value;
-                gbFilters.Enabled = _FilterEnabled;
             }
         }
 
@@ -60,36 +29,17 @@ namespace DVLD.Controls
         {
             InitializeComponent();
         }
-
+        public int PersonId {get { return ctrlPersonCard1.PersonID; } }
+        public short FilterEnabled { set { gbFilters.Enabled = value == 0; } }
        
-        private int _PersonID = -1;
-
-        public int PersonID  
-        {
-            get { return ctrlPersonCard1.PersonID; }   
-        }
-
-        //public clsPerson SelectedPersonInfo
-        //{
-        //    get { return ctrlPersonCard1.SelectedPersonInfo; }
-        //}
-
-        public void LoadPersonInfo(int PersonID )
+        private void _FindNow()
         {
 
-            cbFilterBy.SelectedIndex=1;
-            txtFilterValue.Text =PersonID.ToString();
-            FindNow();
-
-        }
-
-        private void FindNow()
-        {
             switch (cbFilterBy.Text)
             {
                 case "Person ID":
-                    ctrlPersonCard1.LoadPersonInfo(int.Parse(txtFilterValue.Text));
-                   
+                    ctrlPersonCard1.LoadPersonInfo(int.Parse(txtFilterValue.Text.Trim()));
+
                     break;
 
                 case "National No.":
@@ -99,95 +49,78 @@ namespace DVLD.Controls
                 default:
                     break;
             }
-           
-            if ( OnPersonSelected !=null && FilterEnabled)
+
+            if (OnPersonSelected != null && gbFilters.Enabled)
                 // Raise the event with a parameter
-              OnPersonSelected  (ctrlPersonCard1.PersonID);
+                OnPersonSelected(ctrlPersonCard1.PersonID);
         }
 
-        private void cbFilterBy_SelectedIndexChanged(object sender, EventArgs e)
+        public void LoadPersonInfo(int PersonID)
         {
-                txtFilterValue.Text = "";
-                txtFilterValue.Focus();
+            _PersonId = PersonID;
+            cbFilterBy.SelectedIndex = 1;
+            txtFilterValue.Text=_PersonId.ToString();
+          
+            ctrlPersonCard1.LoadPersonInfo(_PersonId);
+
+        }
+        private void txtFilterValue_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (cbFilterBy.Text == "Person ID")
+                e.Handled = !(char.IsDigit(e.KeyChar) || char.IsControl(e.KeyChar));
         }
 
         private void btnFind_Click(object sender, EventArgs e)
         {
-            if (!this.ValidateChildren())
+            if(string.IsNullOrEmpty(txtFilterValue.Text))
             {
-                //Here we dont continue becuase the form is not valid
-                MessageBox.Show("Some fileds are not valide!, put the mouse over the red icon(s) to see the erro", "Validation Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("Text Box Is Empty", "Error", MessageBoxButtons.OK);
                 return;
-
             }
+            _FindNow();
 
-            FindNow();
+
+
+
         }
 
         private void ctrlPersonCardWithFilter_Load(object sender, EventArgs e)
         {
-            cbFilterBy.SelectedIndex= 0;
+            cbFilterBy.SelectedIndex = 0;
+            txtFilterValue.Text = "";
             txtFilterValue.Focus();
-         
         }
 
-        private void txtFilterValue_Validating(object sender, CancelEventArgs e)
+        private void cbFilterBy_SelectedIndexChanged(object sender, EventArgs e)
         {
-            
-            if (string.IsNullOrEmpty(txtFilterValue.Text.Trim()))
-            {
-                e.Cancel = true;
-                errorProvider1.SetError(txtFilterValue, "This field is required!");
-            }
-            else
-            {
-                //e.Cancel = false;
-                errorProvider1.SetError(txtFilterValue, null);
-            }
+            txtFilterValue.Text = "";
+            txtFilterValue.Focus();
+        }
+
+        public void FiltterFocuse()
+        {
+            txtFilterValue.Focus();
         }
 
         private void btnAddNewPerson_Click(object sender, EventArgs e)
         {
-            frmAddUpdatePerson frm1 = new frmAddUpdatePerson();
-            frm1.DataBack += DataBackEvent; // Subscribe to the event
-            frm1.ShowDialog();  
-
+            frmAddUpdatePerson frmAddUpdatePerson = new frmAddUpdatePerson();
+            frmAddUpdatePerson.DataBack += DataBackPerson;
+            frmAddUpdatePerson.ShowDialog();
         }
 
-        private void DataBackEvent(object sender, int PersonID)
+        private void DataBackPerson(object sender, int PersonID)
         {
-            // Handle the data received
-
+       
+           
             cbFilterBy.SelectedIndex = 1;
-            txtFilterValue.Text=PersonID.ToString();    
-            ctrlPersonCard1.LoadPersonInfo(PersonID);
+            txtFilterValue.Text = PersonID.ToString();
+            _FindNow();
         }
 
-        public void FilterFocus()
+        public void ResetPersonInfo()
         {
-            txtFilterValue.Focus();
-        }
-
-        private void txtFilterValue_KeyPress(object sender, KeyPressEventArgs e)
-        {
-            // Check if the pressed key is Enter (character code 13)
-            if (e.KeyChar == (char)13)
-            {
-
-                btnFind.PerformClick();
-            }
-
-            //this will allow only digits if person id is selected
-            if (cbFilterBy.Text == "Person ID")
-                e.Handled = !char.IsDigit(e.KeyChar) && !char.IsControl(e.KeyChar);
-
-
-
-        }
-
-        private void ctrlPersonCard1_Load(object sender, EventArgs e)
-        {
-
+            ctrlPersonCard1.ResetPersonInfo();
         }
     }
 }

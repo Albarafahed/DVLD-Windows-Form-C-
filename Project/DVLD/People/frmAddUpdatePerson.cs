@@ -1,22 +1,16 @@
-﻿using System;
-using System.Collections.Generic;
+﻿
+using DVLD_Buisness;
+using DVLD.Classes;
+using DVLD_Buisness;
+using DVLD.Properties;
+using System;
 using System.ComponentModel;
 using System.Data;
-using System.Diagnostics.Contracts;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Text.RegularExpressions;
-using System.Threading.Tasks;
-using System.Windows.Forms;
-using DVLD.Classes;
-using DVLD.Properties;
-using DVLD_Buisness;
 using System.IO;
+using System.Windows.Forms;
 using static System.Windows.Forms.VisualStyles.VisualStyleElement.Button;
-using System.Runtime.ConstrainedExecution;
 
-namespace DVLD.People
+namespace DVLD
 {
     public partial class frmAddUpdatePerson : Form
     {
@@ -58,7 +52,7 @@ namespace DVLD.People
             {
                 lblTitle.Text = "Add New Person";
                 _Person = new clsPerson();
-            } 
+            }
             else
             {
                 lblTitle.Text = "Update Person";
@@ -108,12 +102,12 @@ namespace DVLD.People
 
         private void _LoadData()
         {
-           
+
             _Person = clsPerson.Find(_PersonID);
 
             if (_Person == null)
             {
-                MessageBox.Show("No Person with ID = " + _PersonID ,"Person Not Found",MessageBoxButtons.OK,MessageBoxIcon.Exclamation);
+                MessageBox.Show("No Person with ID = " + _PersonID, "Person Not Found", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
                 this.Close();
                 return;
             }
@@ -126,18 +120,20 @@ namespace DVLD.People
             txtLastName.Text = _Person.LastName;
             txtNationalNo.Text = _Person.NationalNo;
             dtpDateOfBirth.Value = _Person.DateOfBirth;
-            
+
             if (_Person.Gendor == 0)
-                rbMale.Checked= true;
+                rbMale.Checked = true;
             else
                 rbFemale.Checked = true;
+
+          
 
             txtAddress.Text = _Person.Address;
             txtPhone.Text = _Person.Phone;
             txtEmail.Text = _Person.Email;
             cbCountry.SelectedIndex = cbCountry.FindString(_Person.CountryInfo.CountryName);
 
-          
+
             //load person image incase it was set.
             if (_Person.ImagePath != "")
             {
@@ -146,7 +142,7 @@ namespace DVLD.People
             }
 
             //hide/show the remove linke incase there is no image for the person.
-            llRemoveImage.Visible = (_Person.ImagePath != ""); 
+            llRemoveImage.Visible = (_Person.ImagePath != "");
 
         }
 
@@ -154,7 +150,7 @@ namespace DVLD.People
         {
             _ResetDefualtValues();
 
-            if(_Mode==enMode.Update)
+            if (_Mode == enMode.Update)
                 _LoadData();
         }
 
@@ -166,41 +162,41 @@ namespace DVLD.People
             //in case the image changed. and it will rename the new image with guid and 
             // place it in the images folder.
 
-          
-                //_Person.ImagePath contains the old Image, we check if it changed then we copy the new image
-                if (_Person.ImagePath != pbPersonImage.ImageLocation)
+
+            //_Person.ImagePath contains the old Image, we check if it changed then we copy the new image
+            if (_Person.ImagePath != pbPersonImage.ImageLocation)
+            {
+                if (_Person.ImagePath != "")
                 {
-                    if (_Person.ImagePath != "")
-                    {
                     //first we delete the old image from the folder in case there is any.
 
-                        try
-                        {
-                            File.Delete(_Person.ImagePath);
-                        }
-                        catch (IOException)
-                        {
-                            // We could not delete the file.
-                            //log it later   
-                        }
+                    try
+                    {
+                        File.Delete(_Person.ImagePath);
+                    }
+                    catch (IOException)
+                    {
+                        // We could not delete the file.
+                        //log it later   
+                    }
                 }
 
-                    if (pbPersonImage.ImageLocation != null)
-                    {
-                        //then we copy the new image to the image folder after we rename it
-                        string SourceImageFile=pbPersonImage.ImageLocation.ToString();
+                if (pbPersonImage.ImageLocation != null)
+                {
+                    //then we copy the new image to the image folder after we rename it
+                    string SourceImageFile = pbPersonImage.ImageLocation.ToString();
 
-                        if (clsUtil.CopyImageToProjectImagesFolder(ref SourceImageFile))
-                        {
-                            pbPersonImage.ImageLocation = SourceImageFile;
-                             return true;
-                        }
-                        else
-                        {
-                            MessageBox.Show("Error Copying Image File", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                            return false;
-                        }
+                    if (clsUtil.CopyImageToProjectImagesFolder(ref SourceImageFile))
+                    {
+                        pbPersonImage.ImageLocation = SourceImageFile;
+                        return true;
                     }
+                    else
+                    {
+                        MessageBox.Show("Error Copying Image File", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        return false;
+                    }
+                }
 
             }
             return true;
@@ -212,12 +208,12 @@ namespace DVLD.People
             if (!this.ValidateChildren())
             {
                 //Here we dont continue becuase the form is not valid
-                MessageBox.Show("Some fileds are not valide!, put the mouse over the red icon(s) to see the erro","Validation Error",MessageBoxButtons.OK,MessageBoxIcon.Error);
+                MessageBox.Show("Some fileds are not valide!, put the mouse over the red icon(s) to see the erro", "Validation Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
 
             }
 
-           if (! _HandlePersonImage())
+            if (!_HandlePersonImage())
                 return;
 
             int NationalityCountryID = clsCountry.Find(cbCountry.Text).ID;
@@ -226,19 +222,19 @@ namespace DVLD.People
             _Person.SecondName = txtSecondName.Text.Trim();
             _Person.ThirdName = txtThirdName.Text.Trim();
             _Person.LastName = txtLastName.Text.Trim();
-            _Person.NationalNo = txtNationalNo.Text.Trim() ;
+            _Person.NationalNo = txtNationalNo.Text.Trim();
             _Person.Email = txtEmail.Text.Trim();
             _Person.Phone = txtPhone.Text.Trim();
             _Person.Address = txtAddress.Text.Trim();
             _Person.DateOfBirth = dtpDateOfBirth.Value;
 
             if (rbMale.Checked)
-                _Person.Gendor = (short) enGendor.Male;
+                _Person.Gendor = (short)enGendor.Male;
             else
-                _Person.Gendor = (short) enGendor.Female;
+                _Person.Gendor = (short)enGendor.Female;
 
             _Person.NationalityCountryID = NationalityCountryID;
-            
+
             if (pbPersonImage.ImageLocation != null)
                 _Person.ImagePath = pbPersonImage.ImageLocation;
             else
@@ -246,22 +242,22 @@ namespace DVLD.People
 
             if (_Person.Save())
             {
-                 lblPersonID.Text = _Person.PersonID.ToString();
+                lblPersonID.Text = _Person.PersonID.ToString();
                 //change form mode to update.
                 _Mode = enMode.Update;
                 lblTitle.Text = "Update Person";
 
                 MessageBox.Show("Data Saved Successfully.", "Saved", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
-    
+
                 // Trigger the event to send data back to the caller form.
                 DataBack?.Invoke(this, _Person.PersonID);
             }
             else
                 MessageBox.Show("Error: Data Is not Saved Successfully.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
 
-            
-            
+
+
         }
 
         private void llSetImage_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
@@ -282,9 +278,9 @@ namespace DVLD.People
 
         private void llRemoveImage_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-           
+
             pbPersonImage.ImageLocation = null;
-          
+
 
 
             if (rbMale.Checked)
@@ -297,7 +293,7 @@ namespace DVLD.People
 
         private void rbFemale_Click(object sender, EventArgs e)
         {
-           //change the defualt image to female incase there is no image set.
+            //change the defualt image to female incase there is no image set.
             if (pbPersonImage.ImageLocation == null)
                 pbPersonImage.Image = Resources.Female_512;
         }
@@ -313,7 +309,7 @@ namespace DVLD.People
         {
 
             // First: set AutoValidate property of your Form to EnableAllowFocusChange in designer 
-            TextBox Temp = ((TextBox) sender);
+            TextBox Temp = ((TextBox)sender);
             if (string.IsNullOrEmpty(Temp.Text.Trim()))
             {
                 e.Cancel = true;
@@ -339,10 +335,11 @@ namespace DVLD.People
                 e.Cancel = true;
                 errorProvider1.SetError(txtEmail, "Invalid Email Address Format!");
             }
-           else
-            { 
-                errorProvider1.SetError(txtEmail, null); 
-            };
+            else
+            {
+                errorProvider1.SetError(txtEmail, null);
+            }
+            ;
 
         }
 
@@ -365,7 +362,7 @@ namespace DVLD.People
             {
                 e.Cancel = true;
                 errorProvider1.SetError(txtNationalNo, "National Number is used for another person!");
-            
+
             }
             else
             {
@@ -377,6 +374,13 @@ namespace DVLD.People
         {
 
         }
+
+        private void lblTitle_Click(object sender, EventArgs e)
+        {
+
+        }
+
+      
     }
 
-    }
+}

@@ -1,4 +1,4 @@
-﻿namespace DVLD.Applications.Detain_License
+﻿namespace DVLD.Licenses.Detain_License
 {
     partial class frmDetainLicenseApplication
     {
@@ -19,6 +19,7 @@
             }
             base.Dispose(disposing);
         }
+
 
         #region Windows Form Designer generated code
 
@@ -50,8 +51,8 @@
             this.txtFineFees = new System.Windows.Forms.TextBox();
             this.lblCreatedByUser = new System.Windows.Forms.Label();
             this.lblTitle = new System.Windows.Forms.Label();
-            this.ctrlDriverLicenseInfoWithFilter1 = new DVLD.Licenses.Controls.ctrlDriverLicenseInfoWithFilter();
             this.errorProvider1 = new System.Windows.Forms.ErrorProvider(this.components);
+            this.ctrlDriverLicenseInfoWithFilter1 = new DVLD.Licenses.Local_License.Control.ctrlDriverLicenseInfoWithFilter();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -93,7 +94,7 @@
             this.lblLicenseID.Location = new System.Drawing.Point(619, 40);
             this.lblLicenseID.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblLicenseID.Name = "lblLicenseID";
-            this.lblLicenseID.Size = new System.Drawing.Size(49, 20);
+            this.lblLicenseID.Size = new System.Drawing.Size(62, 25);
             this.lblLicenseID.TabIndex = 191;
             this.lblLicenseID.Text = "[???]";
             // 
@@ -104,7 +105,7 @@
             this.label10.Location = new System.Drawing.Point(410, 40);
             this.label10.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(100, 20);
+            this.label10.Size = new System.Drawing.Size(121, 25);
             this.label10.TabIndex = 190;
             this.label10.Text = "License ID:";
             // 
@@ -124,7 +125,7 @@
             this.llShowLicenseInfo.Enabled = false;
             this.llShowLicenseInfo.Location = new System.Drawing.Point(191, 713);
             this.llShowLicenseInfo.Name = "llShowLicenseInfo";
-            this.llShowLicenseInfo.Size = new System.Drawing.Size(148, 20);
+            this.llShowLicenseInfo.Size = new System.Drawing.Size(182, 25);
             this.llShowLicenseInfo.TabIndex = 184;
             this.llShowLicenseInfo.TabStop = true;
             this.llShowLicenseInfo.Text = "Show Licenses Info";
@@ -161,7 +162,7 @@
             this.label1.Location = new System.Drawing.Point(410, 72);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(103, 20);
+            this.label1.Size = new System.Drawing.Size(127, 25);
             this.label1.TabIndex = 181;
             this.label1.Text = "Created By:";
             // 
@@ -172,7 +173,7 @@
             this.label2.Location = new System.Drawing.Point(16, 104);
             this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(94, 20);
+            this.label2.Size = new System.Drawing.Size(115, 25);
             this.label2.TabIndex = 177;
             this.label2.Text = "Fine Fees:";
             // 
@@ -193,7 +194,7 @@
             this.lblDetainDate.Location = new System.Drawing.Point(225, 72);
             this.lblDetainDate.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblDetainDate.Name = "lblDetainDate";
-            this.lblDetainDate.Size = new System.Drawing.Size(109, 20);
+            this.lblDetainDate.Size = new System.Drawing.Size(136, 25);
             this.lblDetainDate.TabIndex = 176;
             this.lblDetainDate.Text = "[??/??/????]";
             // 
@@ -214,7 +215,7 @@
             this.label5.Location = new System.Drawing.Point(16, 72);
             this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(111, 20);
+            this.label5.Size = new System.Drawing.Size(132, 25);
             this.label5.TabIndex = 174;
             this.label5.Text = "Detain Date:";
             // 
@@ -225,7 +226,7 @@
             this.lblDetainID.Location = new System.Drawing.Point(225, 40);
             this.lblDetainID.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblDetainID.Name = "lblDetainID";
-            this.lblDetainID.Size = new System.Drawing.Size(49, 20);
+            this.lblDetainID.Size = new System.Drawing.Size(62, 25);
             this.lblDetainID.TabIndex = 173;
             this.lblDetainID.Text = "[???]";
             // 
@@ -236,7 +237,7 @@
             this.label4.Location = new System.Drawing.Point(16, 40);
             this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(91, 20);
+            this.label4.Size = new System.Drawing.Size(108, 25);
             this.label4.TabIndex = 172;
             this.label4.Text = "Detain ID:";
             // 
@@ -246,7 +247,7 @@
             this.llShowLicenseHistory.Enabled = false;
             this.llShowLicenseHistory.Location = new System.Drawing.Point(8, 713);
             this.llShowLicenseHistory.Name = "llShowLicenseHistory";
-            this.llShowLicenseHistory.Size = new System.Drawing.Size(169, 20);
+            this.llShowLicenseHistory.Size = new System.Drawing.Size(210, 25);
             this.llShowLicenseHistory.TabIndex = 183;
             this.llShowLicenseHistory.TabStop = true;
             this.llShowLicenseHistory.Text = "Show Licenses History";
@@ -280,7 +281,7 @@
             // 
             this.txtFineFees.Location = new System.Drawing.Point(229, 104);
             this.txtFineFees.Name = "txtFineFees";
-            this.txtFineFees.Size = new System.Drawing.Size(102, 26);
+            this.txtFineFees.Size = new System.Drawing.Size(102, 30);
             this.txtFineFees.TabIndex = 196;
             this.txtFineFees.Validating += new System.ComponentModel.CancelEventHandler(this.txtFineFees_Validating);
             // 
@@ -291,7 +292,7 @@
             this.lblCreatedByUser.Location = new System.Drawing.Point(619, 72);
             this.lblCreatedByUser.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblCreatedByUser.Name = "lblCreatedByUser";
-            this.lblCreatedByUser.Size = new System.Drawing.Size(59, 20);
+            this.lblCreatedByUser.Size = new System.Drawing.Size(74, 25);
             this.lblCreatedByUser.TabIndex = 180;
             this.lblCreatedByUser.Text = "[????]";
             // 
@@ -306,31 +307,32 @@
             this.lblTitle.Text = "Detain License";
             this.lblTitle.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // ctrlDriverLicenseInfoWithFilter1
-            // 
-            this.ctrlDriverLicenseInfoWithFilter1.BackColor = System.Drawing.Color.White;
-            this.ctrlDriverLicenseInfoWithFilter1.FilterEnabled = true;
-            this.ctrlDriverLicenseInfoWithFilter1.Location = new System.Drawing.Point(-6, 36);
-            this.ctrlDriverLicenseInfoWithFilter1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.ctrlDriverLicenseInfoWithFilter1.Name = "ctrlDriverLicenseInfoWithFilter1";
-            this.ctrlDriverLicenseInfoWithFilter1.Size = new System.Drawing.Size(874, 464);
-            this.ctrlDriverLicenseInfoWithFilter1.TabIndex = 185;
-            this.ctrlDriverLicenseInfoWithFilter1.OnLicenseSelected += new System.Action<int>(this.ctrlDriverLicenseInfoWithFilter1_OnLicenseSelected);
-            // 
             // errorProvider1
             // 
             this.errorProvider1.ContainerControl = this;
             // 
+            // ctrlDriverLicenseInfoWithFilter1
+            // 
+            this.ctrlDriverLicenseInfoWithFilter1.BackColor = System.Drawing.Color.White;
+            this.ctrlDriverLicenseInfoWithFilter1.FillterEnabled = true;
+            this.ctrlDriverLicenseInfoWithFilter1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ctrlDriverLicenseInfoWithFilter1.Location = new System.Drawing.Point(0, 14);
+            this.ctrlDriverLicenseInfoWithFilter1.Margin = new System.Windows.Forms.Padding(5);
+            this.ctrlDriverLicenseInfoWithFilter1.Name = "ctrlDriverLicenseInfoWithFilter1";
+            this.ctrlDriverLicenseInfoWithFilter1.Size = new System.Drawing.Size(874, 437);
+            this.ctrlDriverLicenseInfoWithFilter1.TabIndex = 185;
+            this.ctrlDriverLicenseInfoWithFilter1.OnLicenseSelected += new System.Action<int>(this.ctrlDriverLicenseInfoWithFilter1_OnLicenseSelected);
+            // 
             // frmDetainLicenseApplication
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoValidate = System.Windows.Forms.AutoValidate.EnableAllowFocusChange;
             this.BackColor = System.Drawing.Color.White;
             this.CancelButton = this.btnClose;
-            this.ClientSize = new System.Drawing.Size(869, 763);
-            this.Controls.Add(this.lblTitle);
+            this.ClientSize = new System.Drawing.Size(882, 763);
             this.Controls.Add(this.ctrlDriverLicenseInfoWithFilter1);
+            this.Controls.Add(this.lblTitle);
             this.Controls.Add(this.btnClose);
             this.Controls.Add(this.llShowLicenseInfo);
             this.Controls.Add(this.btnDetain);
@@ -380,7 +382,7 @@
         private System.Windows.Forms.Label lblCreatedByUser;
         private System.Windows.Forms.Label lblTitle;
         private System.Windows.Forms.TextBox txtFineFees;
-        private Licenses.Controls.ctrlDriverLicenseInfoWithFilter ctrlDriverLicenseInfoWithFilter1;
         private System.Windows.Forms.ErrorProvider errorProvider1;
+        private Local_License.Control.ctrlDriverLicenseInfoWithFilter ctrlDriverLicenseInfoWithFilter1;
     }
 }

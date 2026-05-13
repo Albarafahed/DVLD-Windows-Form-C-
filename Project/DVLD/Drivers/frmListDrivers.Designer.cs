@@ -35,16 +35,16 @@
             this.label2 = new System.Windows.Forms.Label();
             this.dgvDrivers = new System.Windows.Forms.DataGridView();
             this.cmsDrivers = new System.Windows.Forms.ContextMenuStrip(this.components);
-            this.showDetailsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripSeparator2 = new System.Windows.Forms.ToolStripSeparator();
+            this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
+            this.cbFilterBy = new System.Windows.Forms.ComboBox();
+            this.txtFilterValue = new System.Windows.Forms.TextBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.showDetailsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.issueInternationalLicenseToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.showPersonLicenseHistoryToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.pbDriverImage = new System.Windows.Forms.PictureBox();
             this.btnClose = new System.Windows.Forms.Button();
-            this.cbFilterBy = new System.Windows.Forms.ComboBox();
-            this.txtFilterValue = new System.Windows.Forms.TextBox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
             ((System.ComponentModel.ISupportInitialize)(this.dgvDrivers)).BeginInit();
             this.cmsDrivers.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pbDriverImage)).BeginInit();
@@ -66,7 +66,7 @@
             this.lblRecordsCount.AutoSize = true;
             this.lblRecordsCount.Location = new System.Drawing.Point(121, 699);
             this.lblRecordsCount.Name = "lblRecordsCount";
-            this.lblRecordsCount.Size = new System.Drawing.Size(27, 20);
+            this.lblRecordsCount.Size = new System.Drawing.Size(34, 25);
             this.lblRecordsCount.TabIndex = 121;
             this.lblRecordsCount.Text = "??";
             // 
@@ -76,7 +76,7 @@
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(19, 699);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(96, 20);
+            this.label2.Size = new System.Drawing.Size(116, 25);
             this.label2.TabIndex = 120;
             this.label2.Text = "# Records:";
             // 
@@ -102,6 +102,7 @@
             dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
             dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
             this.dgvDrivers.RowHeadersDefaultCellStyle = dataGridViewCellStyle1;
+            this.dgvDrivers.RowHeadersWidth = 51;
             this.dgvDrivers.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dgvDrivers.Size = new System.Drawing.Size(1097, 354);
             this.dgvDrivers.TabIndex = 119;
@@ -109,6 +110,7 @@
             // 
             // cmsDrivers
             // 
+            this.cmsDrivers.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.cmsDrivers.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.showDetailsToolStripMenuItem,
             this.toolStripSeparator2,
@@ -116,28 +118,71 @@
             this.toolStripSeparator1,
             this.showPersonLicenseHistoryToolStripMenuItem});
             this.cmsDrivers.Name = "contextMenuStrip1";
-            this.cmsDrivers.Size = new System.Drawing.Size(242, 152);
+            this.cmsDrivers.Size = new System.Drawing.Size(281, 158);
+            // 
+            // toolStripSeparator2
+            // 
+            this.toolStripSeparator2.Name = "toolStripSeparator2";
+            this.toolStripSeparator2.Size = new System.Drawing.Size(277, 6);
+            // 
+            // toolStripSeparator1
+            // 
+            this.toolStripSeparator1.Name = "toolStripSeparator1";
+            this.toolStripSeparator1.Size = new System.Drawing.Size(277, 6);
+            // 
+            // cbFilterBy
+            // 
+            this.cbFilterBy.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cbFilterBy.FormattingEnabled = true;
+            this.cbFilterBy.Items.AddRange(new object[] {
+            "None",
+            "Driver ID",
+            "Person ID",
+            "National No.",
+            "Full Name"});
+            this.cbFilterBy.Location = new System.Drawing.Point(102, 293);
+            this.cbFilterBy.Name = "cbFilterBy";
+            this.cbFilterBy.Size = new System.Drawing.Size(210, 33);
+            this.cbFilterBy.TabIndex = 126;
+            this.cbFilterBy.SelectedIndexChanged += new System.EventHandler(this.cbFilterBy_SelectedIndexChanged);
+            // 
+            // txtFilterValue
+            // 
+            this.txtFilterValue.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txtFilterValue.Location = new System.Drawing.Point(319, 293);
+            this.txtFilterValue.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.txtFilterValue.Name = "txtFilterValue";
+            this.txtFilterValue.Size = new System.Drawing.Size(256, 30);
+            this.txtFilterValue.TabIndex = 125;
+            this.txtFilterValue.Visible = false;
+            this.txtFilterValue.TextChanged += new System.EventHandler(this.txtFilterValue_TextChanged);
+            this.txtFilterValue.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtFilterValue_KeyPress);
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(19, 296);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(98, 25);
+            this.label1.TabIndex = 124;
+            this.label1.Text = "Filter By:";
             // 
             // showDetailsToolStripMenuItem
             // 
             this.showDetailsToolStripMenuItem.Image = global::DVLD.Properties.Resources.PersonDetails_32;
             this.showDetailsToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.showDetailsToolStripMenuItem.Name = "showDetailsToolStripMenuItem";
-            this.showDetailsToolStripMenuItem.Size = new System.Drawing.Size(241, 38);
+            this.showDetailsToolStripMenuItem.Size = new System.Drawing.Size(280, 38);
             this.showDetailsToolStripMenuItem.Text = "&Show Person Info";
             this.showDetailsToolStripMenuItem.Click += new System.EventHandler(this.showDetailsToolStripMenuItem_Click);
-            // 
-            // toolStripSeparator2
-            // 
-            this.toolStripSeparator2.Name = "toolStripSeparator2";
-            this.toolStripSeparator2.Size = new System.Drawing.Size(238, 6);
             // 
             // issueInternationalLicenseToolStripMenuItem
             // 
             this.issueInternationalLicenseToolStripMenuItem.Image = global::DVLD.Properties.Resources.International_32;
             this.issueInternationalLicenseToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.issueInternationalLicenseToolStripMenuItem.Name = "issueInternationalLicenseToolStripMenuItem";
-            this.issueInternationalLicenseToolStripMenuItem.Size = new System.Drawing.Size(241, 38);
+            this.issueInternationalLicenseToolStripMenuItem.Size = new System.Drawing.Size(280, 38);
             this.issueInternationalLicenseToolStripMenuItem.Text = "Issue International License";
             this.issueInternationalLicenseToolStripMenuItem.Click += new System.EventHandler(this.issueInternationalLicenseToolStripMenuItem_Click);
             // 
@@ -146,7 +191,7 @@
             this.showPersonLicenseHistoryToolStripMenuItem.Image = global::DVLD.Properties.Resources.PersonLicenseHistory_32;
             this.showPersonLicenseHistoryToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.showPersonLicenseHistoryToolStripMenuItem.Name = "showPersonLicenseHistoryToolStripMenuItem";
-            this.showPersonLicenseHistoryToolStripMenuItem.Size = new System.Drawing.Size(241, 38);
+            this.showPersonLicenseHistoryToolStripMenuItem.Size = new System.Drawing.Size(280, 38);
             this.showPersonLicenseHistoryToolStripMenuItem.Text = "Show Person License History";
             this.showPersonLicenseHistoryToolStripMenuItem.Click += new System.EventHandler(this.showPersonLicenseHistoryToolStripMenuItem_Click);
             // 
@@ -176,54 +221,10 @@
             this.btnClose.TabIndex = 118;
             this.btnClose.Text = "Close";
             this.btnClose.UseVisualStyleBackColor = true;
-            this.btnClose.Click += new System.EventHandler(this.btnClose_Click);
-            // 
-            // cbFilterBy
-            // 
-            this.cbFilterBy.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.cbFilterBy.FormattingEnabled = true;
-            this.cbFilterBy.Items.AddRange(new object[] {
-            "None",
-            "Driver ID",
-            "Person ID",
-            "National No.",
-            "Full Name"});
-            this.cbFilterBy.Location = new System.Drawing.Point(102, 293);
-            this.cbFilterBy.Name = "cbFilterBy";
-            this.cbFilterBy.Size = new System.Drawing.Size(210, 28);
-            this.cbFilterBy.TabIndex = 126;
-            this.cbFilterBy.SelectedIndexChanged += new System.EventHandler(this.cbFilterBy_SelectedIndexChanged);
-            // 
-            // txtFilterValue
-            // 
-            this.txtFilterValue.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.txtFilterValue.Location = new System.Drawing.Point(319, 293);
-            this.txtFilterValue.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.txtFilterValue.Name = "txtFilterValue";
-            this.txtFilterValue.Size = new System.Drawing.Size(256, 26);
-            this.txtFilterValue.TabIndex = 125;
-            this.txtFilterValue.Visible = false;
-            this.txtFilterValue.TextChanged += new System.EventHandler(this.txtFilterValue_TextChanged);
-            this.txtFilterValue.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtFilterValue_KeyPress);
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(19, 296);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(80, 20);
-            this.label1.TabIndex = 124;
-            this.label1.Text = "Filter By:";
-            // 
-            // toolStripSeparator1
-            // 
-            this.toolStripSeparator1.Name = "toolStripSeparator1";
-            this.toolStripSeparator1.Size = new System.Drawing.Size(238, 6);
             // 
             // frmListDrivers
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(1127, 754);

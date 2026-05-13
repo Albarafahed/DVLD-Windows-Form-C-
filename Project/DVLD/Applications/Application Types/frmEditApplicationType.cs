@@ -1,4 +1,5 @@
-﻿using DVLD.Classes;
+﻿using DVLD_Buisness;
+using DVLD.Classes;
 using DVLD_Buisness;
 using System;
 using System.Collections.Generic;
@@ -10,7 +11,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace DVLD.Applications
+namespace DVLD
 {
     public partial class frmEditApplicationType : Form
     {
@@ -113,5 +114,9 @@ namespace DVLD.Applications
 
         }
 
+        private void lblTitle_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

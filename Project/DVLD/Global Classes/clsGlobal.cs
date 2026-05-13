@@ -8,15 +8,15 @@ using System.Windows.Forms;
 using DVLD_Buisness;
 
 
+
 namespace DVLD.Classes
 {
     internal static  class clsGlobal
     {
-        public static clsUser CurrentUser;
+        public static clsUsers CurrentUser;
 
         public static bool RememberUsernameAndPassword(string Username, string Password)
         {
-
             try
             {
                 //this will get the current project directory folder.
@@ -57,6 +57,8 @@ namespace DVLD.Classes
         public static bool GetStoredCredential(ref string Username, ref string Password)
         {
             //this will get the stored username and password and will return true if found and false if not found.
+
+ 
             try
             {
                 //gets the current project's directory
